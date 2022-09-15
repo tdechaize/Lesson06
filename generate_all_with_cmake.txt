@@ -1,0 +1,1871 @@
+
+C:\src\tools>echo "Directory des sources : C:\src\OpenGL\NeHe_Lesson06-master" 
+"Directory des sources : C:\src\OpenGL\NeHe_Lesson06-master"
+
+C:\src\tools>echo "Nom de l'application  : Lesson06" 
+"Nom de l'application  : Lesson06"
+        1 fichier(s) copi‚(s).
+MAKE Version 5.2  Copyright (c) 1987, 2000 Borland
+	brc32 -X -R -I"C:\BCC55\include" -foLesson06.res src\Lesson06.rc 
+Borland Resource Compiler  Version 5.40
+Copyright (c) 1990, 1999 Inprise Corporation.  All rights reserved.
+	bcc32 -c -tWM- -w -w-par -w-inl -W -a1 -Od -6 -D_DEBUG -DDEBUG -oLesson06.obj src\Lesson06.c
+Borland C++ 5.5.1 for Win32 Copyright (c) 1993, 2000 Borland
+src\Lesson06.c:
+Warning W8065 src\Lesson06.c 255: Call to function 'LoadGLTextures' with no prototype in function InitGL
+Warning W8060 src\Lesson06.c 464: Possibly incorrect assignment in function CreateGLWindow
+Warning W8071 src\Lesson06.c 483: Conversion may lose significant digits in function CreateGLWindow
+Warning W8060 src\Lesson06.c 485: Possibly incorrect assignment in function CreateGLWindow
+Warning W8060 src\Lesson06.c 506: Possibly incorrect assignment in function CreateGLWindow
+	ilink32 -q -aa -V4.0 -c -x -Gn -v -L"C:\Bcc55\lib\psdk" -L"C:\BCC55\lib" c0w32.obj Lesson06.obj, Lesson06.exe, , import32.lib cw32mti.lib , , Lesson06.res 
+C:\src\OpenGL\NeHe_Lesson06-master\Lesson06.exe
+        1 fichier(s) d‚plac‚(s).
+C:\src\OpenGL\NeHe_Lesson06-master\Lesson06.map
+        1 fichier(s) d‚plac‚(s).
+C:\src\OpenGL\NeHe_Lesson06-master\Lesson06.tds
+        1 fichier(s) d‚plac‚(s).
+C:\src\OpenGL\NeHe_Lesson06-master\Lesson06.obj
+        1 fichier(s) d‚plac‚(s).
+C:\src\OpenGL\NeHe_Lesson06-master\Lesson06.res
+        1 fichier(s) d‚plac‚(s).
+MAKE Version 5.2  Copyright (c) 1987, 2000 Borland
+	brc32 -X -R -I"C:\BCC55\include" -foLesson06.res src\Lesson06.rc 
+Borland Resource Compiler  Version 5.40
+Copyright (c) 1990, 1999 Inprise Corporation.  All rights reserved.
+	bcc32 -c -tWM- -w -w-par -w-inl -W -a1 -O2 -6 -DNDEBUG -oLesson06.obj src\Lesson06.c
+Borland C++ 5.5.1 for Win32 Copyright (c) 1993, 2000 Borland
+src\Lesson06.c:
+Warning W8065 src\Lesson06.c 255: Call to function 'LoadGLTextures' with no prototype in function InitGL
+Warning W8060 src\Lesson06.c 464: Possibly incorrect assignment in function CreateGLWindow
+Warning W8071 src\Lesson06.c 483: Conversion may lose significant digits in function CreateGLWindow
+Warning W8060 src\Lesson06.c 485: Possibly incorrect assignment in function CreateGLWindow
+Warning W8060 src\Lesson06.c 506: Possibly incorrect assignment in function CreateGLWindow
+	ilink32 -q -aa -V4.0 -c -x -Gn -L"C:\Bcc55\lib\psdk" -L"C:\BCC55\lib" c0w32.obj Lesson06.obj, Lesson06.exe, , import32.lib cw32mti.lib , , Lesson06.res 
+C:\src\OpenGL\NeHe_Lesson06-master\Lesson06.exe
+        1 fichier(s) d‚plac‚(s).
+C:\src\OpenGL\NeHe_Lesson06-master\Lesson06.tds
+        1 fichier(s) d‚plac‚(s).
+C:\src\OpenGL\NeHe_Lesson06-master\Lesson06.obj
+        1 fichier(s) d‚plac‚(s).
+C:\src\OpenGL\NeHe_Lesson06-master\Lesson06.res
+        1 fichier(s) d‚plac‚(s).
+        1 fichier(s) copi‚(s).
+-- Setting GCC flags to compile and link with Mingw32 (Official)
+-- The C compiler identification is GNU 9.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/MinGW/bin/gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/src/OpenGL/NeHe_Lesson06-master/build.cmake/MINGW32OF/Debug
+-- Setting GCC flags to compile and link with Mingw32 (Official)
+-- The C compiler identification is GNU 9.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/MinGW/bin/gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/src/OpenGL/NeHe_Lesson06-master/build.cmake/MINGW32OF/Release
+Scanning dependencies of target Lesson06
+[ 33%] Building C object CMakeFiles/Lesson06.dir/src/Lesson06.c.obj
+[ 66%] Building RC object CMakeFiles/Lesson06.dir/src/Lesson06.rc.obj
+[100%] Linking C executable C:\src\OpenGL\NeHe_Lesson06-master\binMingw32of\Debug\Lesson06.exe
+[100%] Built target Lesson06
+Scanning dependencies of target Lesson06
+[ 33%] Building C object CMakeFiles/Lesson06.dir/src/Lesson06.c.obj
+[ 66%] Building RC object CMakeFiles/Lesson06.dir/src/Lesson06.rc.obj
+[100%] Linking C executable C:\src\OpenGL\NeHe_Lesson06-master\binMingw32of\Release\Lesson06.exe
+[100%] Built target Lesson06
+        1 fichier(s) copi‚(s).
+-- Setting GCC flags to compile and link with Red Panada DEVC++
+-- The C compiler identification is GNU 10.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files/RedPanda-Cpp/MinGW64/bin/gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/src/OpenGL/NeHe_Lesson06-master/build.cmake/DEVCPP/Debug
+-- Setting GCC flags to compile and link with Red Panada DEVC++
+-- The C compiler identification is GNU 10.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files/RedPanda-Cpp/MinGW64/bin/gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/src/OpenGL/NeHe_Lesson06-master/build.cmake/DEVCPP/Release
+Scanning dependencies of target Lesson06
+[ 33%] Building C object CMakeFiles/Lesson06.dir/src/Lesson06.c.obj
+[ 66%] Building RC object CMakeFiles/Lesson06.dir/src/Lesson06.rc.obj
+[100%] Linking C executable C:\src\OpenGL\NeHe_Lesson06-master\binDevCpp\Debug\Lesson06.exe
+[100%] Built target Lesson06
+Scanning dependencies of target Lesson06
+[ 33%] Building C object CMakeFiles/Lesson06.dir/src/Lesson06.c.obj
+[ 66%] Building RC object CMakeFiles/Lesson06.dir/src/Lesson06.rc.obj
+[100%] Linking C executable C:\src\OpenGL\NeHe_Lesson06-master\binDevCpp\Release\Lesson06.exe
+[100%] Built target Lesson06
+        1 fichier(s) copi‚(s).
+-- Setting GCC flags to compile and link for Mingw64 included in Code::Blocks
+-- The C compiler identification is GNU 8.1.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/CodeBlocks/MinGW/bin/gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/src/OpenGL/NeHe_Lesson06-master/build.cmake/MINGW64CB/Debug
+-- Setting GCC flags to compile and link for Mingw64 included in Code::Blocks
+-- The C compiler identification is GNU 8.1.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/CodeBlocks/MinGW/bin/gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/src/OpenGL/NeHe_Lesson06-master/build.cmake/MINGW64CB/Release
+Scanning dependencies of target Lesson06
+[ 33%] Building C object CMakeFiles/Lesson06.dir/src/Lesson06.c.obj
+[ 66%] Building RC object CMakeFiles/Lesson06.dir/src/Lesson06.rc.obj
+[100%] Linking C executable C:\src\OpenGL\NeHe_Lesson06-master\binMingw64CB\Debug\Lesson06.exe
+[100%] Built target Lesson06
+Scanning dependencies of target Lesson06
+[ 33%] Building C object CMakeFiles/Lesson06.dir/src/Lesson06.c.obj
+[ 66%] Building RC object CMakeFiles/Lesson06.dir/src/Lesson06.rc.obj
+[100%] Linking C executable C:\src\OpenGL\NeHe_Lesson06-master\binMingw64CB\Release\Lesson06.exe
+[100%] Built target Lesson06
+        1 fichier(s) copi‚(s).
+-- Setting GCC flags to compile and link
+-- The C compiler identification is GNU 11.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/cygwin64/bin/i686-w64-mingw32-gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/src/OpenGL/NeHe_Lesson06-master/build.cmake/CYGWIN32/Debug
+-- Setting GCC flags to compile and link
+-- The C compiler identification is GNU 11.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/cygwin64/bin/i686-w64-mingw32-gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/src/OpenGL/NeHe_Lesson06-master/build.cmake/CYGWIN32/Release
+Scanning dependencies of target Lesson06
+[ 33%] Building C object CMakeFiles/Lesson06.dir/src/Lesson06.c.o
+[ 66%] Building RC object CMakeFiles/Lesson06.dir/src/Lesson06.rc.res
+[100%] Linking C executable C:/src/OpenGL/NeHe_Lesson06-master/binCYGWIN32/Debug/Lesson06.exe
+[100%] Built target Lesson06
+Scanning dependencies of target Lesson06
+[ 33%] Building C object CMakeFiles/Lesson06.dir/src/Lesson06.c.o
+[ 66%] Building RC object CMakeFiles/Lesson06.dir/src/Lesson06.rc.res
+[100%] Linking C executable C:/src/OpenGL/NeHe_Lesson06-master/binCYGWIN32/Release/Lesson06.exe
+[100%] Built target Lesson06
+        1 fichier(s) copi‚(s).
+-- Setting GCC flags to compile and link
+-- The C compiler identification is GNU 11.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/cygwin64/bin/x86_64-w64-mingw32-gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/src/OpenGL/NeHe_Lesson06-master/build.cmake/CYGWIN64/Debug
+-- Setting GCC flags to compile and link
+-- The C compiler identification is GNU 11.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/cygwin64/bin/x86_64-w64-mingw32-gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/src/OpenGL/NeHe_Lesson06-master/build.cmake/CYGWIN64/Release
+Scanning dependencies of target Lesson06
+[ 33%] Building C object CMakeFiles/Lesson06.dir/src/Lesson06.c.o
+[ 66%] Building RC object CMakeFiles/Lesson06.dir/src/Lesson06.rc.res
+[100%] Linking C executable C:/src/OpenGL/NeHe_Lesson06-master/binCYGWIN64/Debug/Lesson06.exe
+[100%] Built target Lesson06
+Scanning dependencies of target Lesson06
+[ 33%] Building C object CMakeFiles/Lesson06.dir/src/Lesson06.c.o
+[ 66%] Building RC object CMakeFiles/Lesson06.dir/src/Lesson06.rc.res
+[100%] Linking C executable C:/src/OpenGL/NeHe_Lesson06-master/binCYGWIN64/Release/Lesson06.exe
+[100%] Built target Lesson06
+        1 fichier(s) copi‚(s).
+-- Setting GCC flags to compile and link with MINGW32 packaged Winlibs
+-- The C compiler identification is GNU 12.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Mingw32/bin/gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/src/OpenGL/NeHe_Lesson06-master/build.cmake/MINGW32WL/Debug
+-- Setting GCC flags to compile and link with MINGW32 packaged Winlibs
+-- The C compiler identification is GNU 12.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Mingw32/bin/gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/src/OpenGL/NeHe_Lesson06-master/build.cmake/MINGW32WL/Release
+Scanning dependencies of target Lesson06
+[ 33%] Building C object CMakeFiles/Lesson06.dir/src/Lesson06.c.obj
+[ 66%] Building RC object CMakeFiles/Lesson06.dir/src/Lesson06.rc.obj
+[100%] Linking C executable C:\src\OpenGL\NeHe_Lesson06-master\binMingW32wl\Debug\Lesson06.exe
+[100%] Built target Lesson06
+Scanning dependencies of target Lesson06
+[ 33%] Building C object CMakeFiles/Lesson06.dir/src/Lesson06.c.obj
+[ 66%] Building RC object CMakeFiles/Lesson06.dir/src/Lesson06.rc.obj
+[100%] Linking C executable C:\src\OpenGL\NeHe_Lesson06-master\binMingW32wl\Release\Lesson06.exe
+[100%] Built target Lesson06
+        1 fichier(s) copi‚(s).
+-- Setting GCC flags to compile and link for MinGW64 packaged Winlibs
+-- The C compiler identification is GNU 12.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Mingw64/bin/gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/src/OpenGL/NeHe_Lesson06-master/build.cmake/MINGW64WL/Debug
+-- Setting GCC flags to compile and link for MinGW64 packaged Winlibs
+-- The C compiler identification is GNU 12.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Mingw64/bin/gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/src/OpenGL/NeHe_Lesson06-master/build.cmake/MINGW64WL/Release
+Scanning dependencies of target Lesson06
+[ 33%] Building C object CMakeFiles/Lesson06.dir/src/Lesson06.c.obj
+[ 66%] Building RC object CMakeFiles/Lesson06.dir/src/Lesson06.rc.obj
+[100%] Linking C executable C:\src\OpenGL\NeHe_Lesson06-master\binMingW64wl\Debug\Lesson06.exe
+[100%] Built target Lesson06
+Scanning dependencies of target Lesson06
+[ 33%] Building C object CMakeFiles/Lesson06.dir/src/Lesson06.c.obj
+[ 66%] Building RC object CMakeFiles/Lesson06.dir/src/Lesson06.rc.obj
+[100%] Linking C executable C:\src\OpenGL\NeHe_Lesson06-master\binMingW64wl\Release\Lesson06.exe
+[100%] Built target Lesson06
+        1 fichier(s) copi‚(s).
+-- Setting GCC flags to compile and link with MSYS2/Mingw32
+-- The C compiler identification is GNU 12.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/msys64/mingw32/bin/gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/src/OpenGL/NeHe_Lesson06-master/build.cmake/MSYS2W32/Debug
+-- Setting GCC flags to compile and link with MSYS2/Mingw32
+-- The C compiler identification is GNU 12.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/msys64/mingw32/bin/gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/src/OpenGL/NeHe_Lesson06-master/build.cmake/MSYS2W32/Release
+Scanning dependencies of target Lesson06
+[ 33%] Building C object CMakeFiles/Lesson06.dir/src/Lesson06.c.obj
+[ 66%] Building RC object CMakeFiles/Lesson06.dir/src/Lesson06.rc.obj
+[100%] Linking C executable /C/src/OpenGL/NeHe_Lesson06-master/binMSYS2W32/Debug/Lesson06.exe
+[100%] Built target Lesson06
+Scanning dependencies of target Lesson06
+[ 33%] Building C object CMakeFiles/Lesson06.dir/src/Lesson06.c.obj
+[ 66%] Building RC object CMakeFiles/Lesson06.dir/src/Lesson06.rc.obj
+[100%] Linking C executable /C/src/OpenGL/NeHe_Lesson06-master/binMSYS2W32/Release/Lesson06.exe
+[100%] Built target Lesson06
+        1 fichier(s) copi‚(s).
+-- Setting GCC flags to compile and link with MSYS2/Mingw64
+-- The C compiler identification is GNU 12.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/msys64/mingw64/bin/gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/src/OpenGL/NeHe_Lesson06-master/build.cmake/MSYS2W64/Debug
+-- Setting GCC flags to compile and link with MSYS2/Mingw64
+-- The C compiler identification is GNU 12.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/msys64/mingw64/bin/gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/src/OpenGL/NeHe_Lesson06-master/build.cmake/MSYS2W64/Release
+Scanning dependencies of target Lesson06
+[ 33%] Building C object CMakeFiles/Lesson06.dir/src/Lesson06.c.obj
+[ 66%] Building RC object CMakeFiles/Lesson06.dir/src/Lesson06.rc.obj
+[100%] Linking C executable /C/src/OpenGL/NeHe_Lesson06-master/binMSYS2W64/Debug/Lesson06.exe
+[100%] Built target Lesson06
+Scanning dependencies of target Lesson06
+[ 33%] Building C object CMakeFiles/Lesson06.dir/src/Lesson06.c.obj
+[ 66%] Building RC object CMakeFiles/Lesson06.dir/src/Lesson06.rc.obj
+[100%] Linking C executable /C/src/OpenGL/NeHe_Lesson06-master/binMSYS2W64/Release/Lesson06.exe
+[100%] Built target Lesson06
+        1 fichier(s) copi‚(s).
+-- Setting GCC flags to compile and link with TDM 32 bits
+-- The C compiler identification is GNU 10.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/TDM-GCC-32/bin/gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/src/OpenGL/NeHe_Lesson06-master/build.cmake/TDM32/Debug
+-- Setting GCC flags to compile and link with TDM 32 bits
+-- The C compiler identification is GNU 10.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/TDM-GCC-32/bin/gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/src/OpenGL/NeHe_Lesson06-master/build.cmake/TDM32/Release
+Scanning dependencies of target Lesson06
+[ 33%] Building C object CMakeFiles/Lesson06.dir/src/Lesson06.c.obj
+[ 66%] Building RC object CMakeFiles/Lesson06.dir/src/Lesson06.rc.obj
+[100%] Linking C executable C:\src\OpenGL\NeHe_Lesson06-master\binTDMW32\Debug\Lesson06.exe
+[100%] Built target Lesson06
+Scanning dependencies of target Lesson06
+[ 33%] Building C object CMakeFiles/Lesson06.dir/src/Lesson06.c.obj
+[ 66%] Building RC object CMakeFiles/Lesson06.dir/src/Lesson06.rc.obj
+[100%] Linking C executable C:\src\OpenGL\NeHe_Lesson06-master\binTDMW32\Release\Lesson06.exe
+[100%] Built target Lesson06
+        1 fichier(s) copi‚(s).
+-- Setting GCC flags to compile and link with TDM64
+-- The C compiler identification is GNU 10.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/TDM-GCC-64/bin/gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/src/OpenGL/NeHe_Lesson06-master/build.cmake/TDM64/Debug
+-- Setting GCC flags to compile and link with TDM64
+-- The C compiler identification is GNU 10.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/TDM-GCC-64/bin/gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/src/OpenGL/NeHe_Lesson06-master/build.cmake/TDM64/Release
+Scanning dependencies of target Lesson06
+[ 33%] Building C object CMakeFiles/Lesson06.dir/src/Lesson06.c.obj
+[ 66%] Building RC object CMakeFiles/Lesson06.dir/src/Lesson06.rc.obj
+[100%] Linking C executable C:\src\OpenGL\NeHe_Lesson06-master\binTDMW64\Debug\Lesson06.exe
+[100%] Built target Lesson06
+Scanning dependencies of target Lesson06
+[ 33%] Building C object CMakeFiles/Lesson06.dir/src/Lesson06.c.obj
+[ 66%] Building RC object CMakeFiles/Lesson06.dir/src/Lesson06.rc.obj
+[100%] Linking C executable C:\src\OpenGL\NeHe_Lesson06-master\binTDMW64\Release\Lesson06.exe
+[100%] Built target Lesson06
+        1 fichier(s) copi‚(s).
+-- Setting MSVC flags to NMAKE 32 bits
+-- The C compiler identification is MSVC 19.33.31629.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.33.31629/bin/Hostx86/x86/cl.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/src/OpenGL/NeHe_Lesson06-master/build.cmake/NmakeX32/Debug
+-- Setting MSVC flags to NMAKE 32 bits
+-- The C compiler identification is MSVC 19.33.31629.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.33.31629/bin/Hostx86/x86/cl.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/src/OpenGL/NeHe_Lesson06-master/build.cmake/NmakeX32/Release
+Scanning dependencies of target Lesson06
+[ 33%] Building C object CMakeFiles/Lesson06.dir/src/Lesson06.c.obj
+Lesson06.c
+[ 66%] Building RC object CMakeFiles/Lesson06.dir/src/Lesson06.rc.res
+Microsoft (R) Windows (R) Resource Compiler Version 10.0.10011.16384
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+[100%] Linking C executable C:\src\OpenGL\NeHe_Lesson06-master\binVS2022X32\Debug\Lesson06.exe
+[100%] Built target Lesson06
+Scanning dependencies of target Lesson06
+[ 33%] Building C object CMakeFiles/Lesson06.dir/src/Lesson06.c.obj
+Lesson06.c
+[ 66%] Building RC object CMakeFiles/Lesson06.dir/src/Lesson06.rc.res
+Microsoft (R) Windows (R) Resource Compiler Version 10.0.10011.16384
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+[100%] Linking C executable C:\src\OpenGL\NeHe_Lesson06-master\binVS2022X32\Release\Lesson06.exe
+[100%] Built target Lesson06
+        1 fichier(s) copi‚(s).
+-- Setting MSVC flags to NMAKE 64 bits
+-- The C compiler identification is MSVC 19.33.31629.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.33.31629/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/src/OpenGL/NeHe_Lesson06-master/build.cmake/NmakeX64/Debug
+-- Setting MSVC flags to NMAKE 64 bits
+-- The C compiler identification is MSVC 19.33.31629.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.33.31629/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/src/OpenGL/NeHe_Lesson06-master/build.cmake/NmakeX64/Release
+Scanning dependencies of target Lesson06
+[ 33%] Building C object CMakeFiles/Lesson06.dir/src/Lesson06.c.obj
+Lesson06.c
+[ 66%] Building RC object CMakeFiles/Lesson06.dir/src/Lesson06.rc.res
+Microsoft (R) Windows (R) Resource Compiler Version 10.0.10011.16384
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+[100%] Linking C executable C:\src\OpenGL\NeHe_Lesson06-master\binVS2022X64\Debug\Lesson06.exe
+[100%] Built target Lesson06
+Scanning dependencies of target Lesson06
+[ 33%] Building C object CMakeFiles/Lesson06.dir/src/Lesson06.c.obj
+Lesson06.c
+[ 66%] Building RC object CMakeFiles/Lesson06.dir/src/Lesson06.rc.res
+Microsoft (R) Windows (R) Resource Compiler Version 10.0.10011.16384
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+[100%] Linking C executable C:\src\OpenGL\NeHe_Lesson06-master\binVS2022X64\Release\Lesson06.exe
+[100%] Built target Lesson06
+        1 fichier(s) copi‚(s).
+-- Setting MSVC flags Visual C/C++ 32 bits (VS2022 Community)
+-- Selecting Windows SDK version 10.0.22621.0 to target Windows .
+-- The C compiler identification is MSVC 19.33.31629.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.33.31629/bin/Hostx64/x86/cl.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/src/OpenGL/NeHe_Lesson06-master/build.cmake/VS2022X32
+MSBuild version 17.3.1+2badb37d1 for .NET Framework
+La g‚n‚ration a d‚marr‚ 15/09/2022 17:23:55.
+     1>Projet "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X32\Lesson06.sln" sur le noud 1 (Lesson06:rebuild cible(s)).
+     1>ValidateSolutionConfiguration:
+         G‚n‚ration de la configuration de solution "Debug|Win32".
+       ValidateProjects:
+         Le projet "ALL_BUILD" n'est pas s‚lectionn‚ dans le cadre d'une g‚n‚ration dans la configuration de solution "Debug|Win32".
+     1>Le projet "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X32\Lesson06.sln" (1) g‚nŠre "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X32\Lesson06.vcxproj.metaproj" (2) sur le noud 1 (Rebuild cible(s)).
+     2>Le projet "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X32\Lesson06.vcxproj.metaproj" (2) g‚nŠre "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X32\ZERO_CHECK.vcxproj" (3) sur le noud 1 (Rebuild cible(s)).
+     3>CoreClean:
+         Cr‚ation du r‚pertoire "Win32\Debug\ZERO_CHECK\".
+       PrepareForBuild:
+         Cr‚ation du r‚pertoire "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X32\Debug\".
+         Cr‚ation du r‚pertoire "Win32\Debug\ZERO_CHECK\ZERO_CHECK.tlog\".
+       InitializeBuildStatus:
+         Cr‚ation de "Win32\Debug\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild", car "AlwaysCreate" a ‚t‚ sp‚cifi‚.
+       CustomBuild:
+         Checking Build System
+       FinalizeBuildStatus:
+         Suppression du fichier "Win32\Debug\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild".
+         Mise … jour de l'horodatage "Win32\Debug\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate".
+     3>G‚n‚ration du projet "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X32\ZERO_CHECK.vcxproj" termin‚e (Rebuild cible(s)).
+     2>Le projet "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X32\Lesson06.vcxproj.metaproj" (2) g‚nŠre "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X32\Lesson06.vcxproj" (4) sur le noud 1 (Rebuild cible(s)).
+     4>CoreClean:
+         Cr‚ation du r‚pertoire "Lesson06.dir\Debug\".
+       PrepareForBuild:
+         Cr‚ation du r‚pertoire "Lesson06.dir\Debug\Lesson06.tlog\".
+       InitializeBuildStatus:
+         Cr‚ation de "Lesson06.dir\Debug\Lesson06.tlog\unsuccessfulbuild", car "AlwaysCreate" a ‚t‚ sp‚cifi‚.
+       CustomBuild:
+         Building Custom Rule C:/src/OpenGL/NeHe_Lesson06-master/CMakeLists.txt
+       VcpkgTripletSelection:
+         Using triplet "x86-windows" from "C:\src\vcpkg\installed\\x86-windows\"
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX64\x86\CL.exe /c /I"C:\src\vcpkg\installed\\x86-windows\include" /Zi /nologo /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Lesson06.dir\Debug\\" /Fd"Lesson06.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\src\OpenGL\NeHe_Lesson06-master\src\Lesson06.c"
+         Lesson06.c
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\10\bin\10.0.22621.0\x64\rc.exe /D WIN32 /D _DEBUG /D "CMAKE_INTDIR=\\\"Debug\\\"" /l"0x0409" /I"C:\src\vcpkg\installed\\x86-windows\include" /nologo /fo"Lesson06.dir\Debug\Lesson06.res" "C:\src\OpenGL\NeHe_Lesson06-master\src\Lesson06.rc" 
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX64\x86\link.exe /ERRORREPORT:QUEUE /OUT:"C:\src\OpenGL\NeHe_Lesson06-master\binVS2022X32\Debug\Lesson06.exe" /INCREMENTAL /ILK:"Lesson06.dir\Debug\Lesson06.ilk" /NOLOGO /LIBPATH:"C:\src\vcpkg\installed\\x86-windows\debug\lib" /LIBPATH:"C:\src\vcpkg\installed\\x86-windows\debug\lib\manual-link" glu32.lib opengl32.lib user32.lib advapi32.lib comdlg32.lib winmm.lib gdi32.lib shell32.lib kernel32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\src\vcpkg\installed\\x86-windows\debug\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/src/OpenGL/NeHe_Lesson06-master/binVS2022X32/Debug/Lesson06.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/src/OpenGL/NeHe_Lesson06-master/binVS2022X32/Debug/Lesson06.lib" /MACHINE:X86 /SAFESEH  /machine:X86 Lesson06.dir\Debug\Lesson06.res
+         Lesson06.dir\Debug\Lesson06.obj
+         Lesson06.vcxproj -> C:\src\OpenGL\NeHe_Lesson06-master\binVS2022X32\Debug\Lesson06.exe
+       AppLocalFromInstalled:
+         pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\src\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "C:\src\OpenGL\NeHe_Lesson06-master\binVS2022X32\Debug\Lesson06.exe" "C:\src\vcpkg\installed\\x86-windows\debug\bin" "Lesson06.dir\Debug\Lesson06.tlog\Lesson06.write.1u.tlog" "Lesson06.dir\Debug\vcpkg.applocal.log"
+       FinalizeBuildStatus:
+         Suppression du fichier "Lesson06.dir\Debug\Lesson06.tlog\unsuccessfulbuild".
+         Mise … jour de l'horodatage "Lesson06.dir\Debug\Lesson06.tlog\Lesson06.lastbuildstate".
+     4>G‚n‚ration du projet "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X32\Lesson06.vcxproj" termin‚e (Rebuild cible(s)).
+     2>G‚n‚ration du projet "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X32\Lesson06.vcxproj.metaproj" termin‚e (Rebuild cible(s)).
+     1>G‚n‚ration du projet "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X32\Lesson06.sln" termin‚e (Lesson06:rebuild cible(s)).
+
+La g‚n‚ration a r‚ussi.
+    0 Avertissement(s)
+    0 Erreur(s)
+
+Temps ‚coul‚ 00:00:05.34
+MSBuild version 17.3.1+2badb37d1 for .NET Framework
+La g‚n‚ration a d‚marr‚ 15/09/2022 17:24:00.
+     1>Projet "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X32\Lesson06.sln" sur le noud 1 (Lesson06:rebuild cible(s)).
+     1>ValidateSolutionConfiguration:
+         G‚n‚ration de la configuration de solution "MinSizeRel|Win32".
+       ValidateProjects:
+         Le projet "ALL_BUILD" n'est pas s‚lectionn‚ dans le cadre d'une g‚n‚ration dans la configuration de solution "MinSizeRel|Win32".
+     1>Le projet "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X32\Lesson06.sln" (1) g‚nŠre "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X32\Lesson06.vcxproj.metaproj" (2) sur le noud 1 (Rebuild cible(s)).
+     2>Le projet "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X32\Lesson06.vcxproj.metaproj" (2) g‚nŠre "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X32\ZERO_CHECK.vcxproj" (3) sur le noud 1 (Rebuild cible(s)).
+     3>CoreClean:
+         Cr‚ation du r‚pertoire "Win32\MinSizeRel\ZERO_CHECK\".
+       PrepareForBuild:
+         Cr‚ation du r‚pertoire "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X32\MinSizeRel\".
+         Cr‚ation du r‚pertoire "Win32\MinSizeRel\ZERO_CHECK\ZERO_CHECK.tlog\".
+       InitializeBuildStatus:
+         Cr‚ation de "Win32\MinSizeRel\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild", car "AlwaysCreate" a ‚t‚ sp‚cifi‚.
+       CustomBuild:
+         Checking Build System
+       FinalizeBuildStatus:
+         Suppression du fichier "Win32\MinSizeRel\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild".
+         Mise … jour de l'horodatage "Win32\MinSizeRel\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate".
+     3>G‚n‚ration du projet "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X32\ZERO_CHECK.vcxproj" termin‚e (Rebuild cible(s)).
+     2>Le projet "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X32\Lesson06.vcxproj.metaproj" (2) g‚nŠre "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X32\Lesson06.vcxproj" (4) sur le noud 1 (Rebuild cible(s)).
+     4>CoreClean:
+         Cr‚ation du r‚pertoire "Lesson06.dir\MinSizeRel\".
+       PrepareForBuild:
+         Cr‚ation du r‚pertoire "C:\src\OpenGL\NeHe_Lesson06-master\binVS2022X32\MinSizeRel\".
+         Cr‚ation du r‚pertoire "Lesson06.dir\MinSizeRel\Lesson06.tlog\".
+       InitializeBuildStatus:
+         Cr‚ation de "Lesson06.dir\MinSizeRel\Lesson06.tlog\unsuccessfulbuild", car "AlwaysCreate" a ‚t‚ sp‚cifi‚.
+       CustomBuild:
+         Building Custom Rule C:/src/OpenGL/NeHe_Lesson06-master/CMakeLists.txt
+       VcpkgTripletSelection:
+         Using triplet "x86-windows" from "C:\src\vcpkg\installed\\x86-windows\"
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX64\x86\CL.exe /c /I"C:\src\vcpkg\installed\\x86-windows\include" /nologo /W1 /WX- /diagnostics:column /O1 /Ob1 /Oy- /D _MBCS /D NDEBUG /D "CMAKE_INTDIR=\"MinSizeRel\"" /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Lesson06.dir\MinSizeRel\\" /Fd"Lesson06.dir\MinSizeRel\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\src\OpenGL\NeHe_Lesson06-master\src\Lesson06.c"
+         Lesson06.c
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\10\bin\10.0.22621.0\x64\rc.exe /D WIN32 /D NDEBUG /D "CMAKE_INTDIR=\\\"MinSizeRel\\\"" /l"0x0409" /I"C:\src\vcpkg\installed\\x86-windows\include" /nologo /fo"Lesson06.dir\MinSizeRel\Lesson06.res" "C:\src\OpenGL\NeHe_Lesson06-master\src\Lesson06.rc" 
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX64\x86\link.exe /ERRORREPORT:QUEUE /OUT:"C:\src\OpenGL\NeHe_Lesson06-master\binVS2022X32\MinSizeRel\Lesson06.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\src\vcpkg\installed\\x86-windows\lib" /LIBPATH:"C:\src\vcpkg\installed\\x86-windows\lib\manual-link" glu32.lib opengl32.lib user32.lib advapi32.lib comdlg32.lib winmm.lib gdi32.lib shell32.lib kernel32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\src\vcpkg\installed\\x86-windows\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/src/OpenGL/NeHe_Lesson06-master/binVS2022X32/MinSizeRel/Lesson06.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/src/OpenGL/NeHe_Lesson06-master/binVS2022X32/MinSizeRel/Lesson06.lib" /MACHINE:X86 /SAFESEH  /machine:X86 Lesson06.dir\MinSizeRel\Lesson06.res
+         Lesson06.dir\MinSizeRel\Lesson06.obj
+         Lesson06.vcxproj -> C:\src\OpenGL\NeHe_Lesson06-master\binVS2022X32\MinSizeRel\Lesson06.exe
+       AppLocalFromInstalled:
+         pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\src\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "C:\src\OpenGL\NeHe_Lesson06-master\binVS2022X32\MinSizeRel\Lesson06.exe" "C:\src\vcpkg\installed\\x86-windows\bin" "Lesson06.dir\MinSizeRel\Lesson06.tlog\Lesson06.write.1u.tlog" "Lesson06.dir\MinSizeRel\vcpkg.applocal.log"
+       FinalizeBuildStatus:
+         Suppression du fichier "Lesson06.dir\MinSizeRel\Lesson06.tlog\unsuccessfulbuild".
+         Mise … jour de l'horodatage "Lesson06.dir\MinSizeRel\Lesson06.tlog\Lesson06.lastbuildstate".
+     4>G‚n‚ration du projet "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X32\Lesson06.vcxproj" termin‚e (Rebuild cible(s)).
+     2>G‚n‚ration du projet "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X32\Lesson06.vcxproj.metaproj" termin‚e (Rebuild cible(s)).
+     1>G‚n‚ration du projet "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X32\Lesson06.sln" termin‚e (Lesson06:rebuild cible(s)).
+
+La g‚n‚ration a r‚ussi.
+    0 Avertissement(s)
+    0 Erreur(s)
+
+Temps ‚coul‚ 00:00:03.03
+MSBuild version 17.3.1+2badb37d1 for .NET Framework
+La g‚n‚ration a d‚marr‚ 15/09/2022 17:24:03.
+     1>Projet "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X32\Lesson06.sln" sur le noud 1 (Lesson06:rebuild cible(s)).
+     1>ValidateSolutionConfiguration:
+         G‚n‚ration de la configuration de solution "Release|Win32".
+       ValidateProjects:
+         Le projet "ALL_BUILD" n'est pas s‚lectionn‚ dans le cadre d'une g‚n‚ration dans la configuration de solution "Release|Win32".
+     1>Le projet "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X32\Lesson06.sln" (1) g‚nŠre "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X32\Lesson06.vcxproj.metaproj" (2) sur le noud 1 (Rebuild cible(s)).
+     2>Le projet "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X32\Lesson06.vcxproj.metaproj" (2) g‚nŠre "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X32\ZERO_CHECK.vcxproj" (3) sur le noud 1 (Rebuild cible(s)).
+     3>CoreClean:
+         Cr‚ation du r‚pertoire "Win32\Release\ZERO_CHECK\".
+       PrepareForBuild:
+         Cr‚ation du r‚pertoire "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X32\Release\".
+         Cr‚ation du r‚pertoire "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\".
+       InitializeBuildStatus:
+         Cr‚ation de "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild", car "AlwaysCreate" a ‚t‚ sp‚cifi‚.
+       CustomBuild:
+         Checking Build System
+       FinalizeBuildStatus:
+         Suppression du fichier "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild".
+         Mise … jour de l'horodatage "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate".
+     3>G‚n‚ration du projet "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X32\ZERO_CHECK.vcxproj" termin‚e (Rebuild cible(s)).
+     2>Le projet "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X32\Lesson06.vcxproj.metaproj" (2) g‚nŠre "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X32\Lesson06.vcxproj" (4) sur le noud 1 (Rebuild cible(s)).
+     4>CoreClean:
+         Cr‚ation du r‚pertoire "Lesson06.dir\Release\".
+       PrepareForBuild:
+         Cr‚ation du r‚pertoire "Lesson06.dir\Release\Lesson06.tlog\".
+       InitializeBuildStatus:
+         Cr‚ation de "Lesson06.dir\Release\Lesson06.tlog\unsuccessfulbuild", car "AlwaysCreate" a ‚t‚ sp‚cifi‚.
+       CustomBuild:
+         Building Custom Rule C:/src/OpenGL/NeHe_Lesson06-master/CMakeLists.txt
+       VcpkgTripletSelection:
+         Using triplet "x86-windows" from "C:\src\vcpkg\installed\\x86-windows\"
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX64\x86\CL.exe /c /I"C:\src\vcpkg\installed\\x86-windows\include" /nologo /W1 /WX- /diagnostics:column /O2 /Ob2 /Oy- /D _MBCS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Lesson06.dir\Release\\" /Fd"Lesson06.dir\Release\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\src\OpenGL\NeHe_Lesson06-master\src\Lesson06.c"
+         Lesson06.c
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\10\bin\10.0.22621.0\x64\rc.exe /D WIN32 /D NDEBUG /D "CMAKE_INTDIR=\\\"Release\\\"" /l"0x0409" /I"C:\src\vcpkg\installed\\x86-windows\include" /nologo /fo"Lesson06.dir\Release\Lesson06.res" "C:\src\OpenGL\NeHe_Lesson06-master\src\Lesson06.rc" 
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX64\x86\link.exe /ERRORREPORT:QUEUE /OUT:"C:\src\OpenGL\NeHe_Lesson06-master\binVS2022X32\Release\Lesson06.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\src\vcpkg\installed\\x86-windows\lib" /LIBPATH:"C:\src\vcpkg\installed\\x86-windows\lib\manual-link" glu32.lib opengl32.lib user32.lib advapi32.lib comdlg32.lib winmm.lib gdi32.lib shell32.lib kernel32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\src\vcpkg\installed\\x86-windows\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/src/OpenGL/NeHe_Lesson06-master/binVS2022X32/Release/Lesson06.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/src/OpenGL/NeHe_Lesson06-master/binVS2022X32/Release/Lesson06.lib" /MACHINE:X86 /SAFESEH  /machine:X86 Lesson06.dir\Release\Lesson06.res
+         Lesson06.dir\Release\Lesson06.obj
+         Lesson06.vcxproj -> C:\src\OpenGL\NeHe_Lesson06-master\binVS2022X32\Release\Lesson06.exe
+       AppLocalFromInstalled:
+         pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\src\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "C:\src\OpenGL\NeHe_Lesson06-master\binVS2022X32\Release\Lesson06.exe" "C:\src\vcpkg\installed\\x86-windows\bin" "Lesson06.dir\Release\Lesson06.tlog\Lesson06.write.1u.tlog" "Lesson06.dir\Release\vcpkg.applocal.log"
+       FinalizeBuildStatus:
+         Suppression du fichier "Lesson06.dir\Release\Lesson06.tlog\unsuccessfulbuild".
+         Mise … jour de l'horodatage "Lesson06.dir\Release\Lesson06.tlog\Lesson06.lastbuildstate".
+     4>G‚n‚ration du projet "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X32\Lesson06.vcxproj" termin‚e (Rebuild cible(s)).
+     2>G‚n‚ration du projet "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X32\Lesson06.vcxproj.metaproj" termin‚e (Rebuild cible(s)).
+     1>G‚n‚ration du projet "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X32\Lesson06.sln" termin‚e (Lesson06:rebuild cible(s)).
+
+La g‚n‚ration a r‚ussi.
+    0 Avertissement(s)
+    0 Erreur(s)
+
+Temps ‚coul‚ 00:00:03.05
+MSBuild version 17.3.1+2badb37d1 for .NET Framework
+La g‚n‚ration a d‚marr‚ 15/09/2022 17:24:06.
+     1>Projet "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X32\Lesson06.sln" sur le noud 1 (Lesson06:rebuild cible(s)).
+     1>ValidateSolutionConfiguration:
+         G‚n‚ration de la configuration de solution "RelWithDebInfo|Win32".
+       ValidateProjects:
+         Le projet "ALL_BUILD" n'est pas s‚lectionn‚ dans le cadre d'une g‚n‚ration dans la configuration de solution "RelWithDebInfo|Win32".
+     1>Le projet "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X32\Lesson06.sln" (1) g‚nŠre "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X32\Lesson06.vcxproj.metaproj" (2) sur le noud 1 (Rebuild cible(s)).
+     2>Le projet "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X32\Lesson06.vcxproj.metaproj" (2) g‚nŠre "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X32\ZERO_CHECK.vcxproj" (3) sur le noud 1 (Rebuild cible(s)).
+     3>CoreClean:
+         Cr‚ation du r‚pertoire "Win32\RelWithDebInfo\ZERO_CHECK\".
+       PrepareForBuild:
+         Cr‚ation du r‚pertoire "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X32\RelWithDebInfo\".
+         Cr‚ation du r‚pertoire "Win32\RelWithDebInfo\ZERO_CHECK\ZERO_CHECK.tlog\".
+       InitializeBuildStatus:
+         Cr‚ation de "Win32\RelWithDebInfo\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild", car "AlwaysCreate" a ‚t‚ sp‚cifi‚.
+       CustomBuild:
+         Checking Build System
+       FinalizeBuildStatus:
+         Suppression du fichier "Win32\RelWithDebInfo\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild".
+         Mise … jour de l'horodatage "Win32\RelWithDebInfo\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate".
+     3>G‚n‚ration du projet "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X32\ZERO_CHECK.vcxproj" termin‚e (Rebuild cible(s)).
+     2>Le projet "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X32\Lesson06.vcxproj.metaproj" (2) g‚nŠre "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X32\Lesson06.vcxproj" (4) sur le noud 1 (Rebuild cible(s)).
+     4>CoreClean:
+         Cr‚ation du r‚pertoire "Lesson06.dir\RelWithDebInfo\".
+       PrepareForBuild:
+         Cr‚ation du r‚pertoire "C:\src\OpenGL\NeHe_Lesson06-master\binVS2022X32\RelWithDebInfo\".
+         Cr‚ation du r‚pertoire "Lesson06.dir\RelWithDebInfo\Lesson06.tlog\".
+       InitializeBuildStatus:
+         Cr‚ation de "Lesson06.dir\RelWithDebInfo\Lesson06.tlog\unsuccessfulbuild", car "AlwaysCreate" a ‚t‚ sp‚cifi‚.
+       CustomBuild:
+         Building Custom Rule C:/src/OpenGL/NeHe_Lesson06-master/CMakeLists.txt
+       VcpkgTripletSelection:
+         Using triplet "x86-windows" from "C:\src\vcpkg\installed\\x86-windows\"
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX64\x86\CL.exe /c /I"C:\src\vcpkg\installed\\x86-windows\include" /Zi /nologo /W1 /WX- /diagnostics:column /O2 /Ob1 /Oy- /D _MBCS /D NDEBUG /D "CMAKE_INTDIR=\"RelWithDebInfo\"" /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Lesson06.dir\RelWithDebInfo\\" /Fd"Lesson06.dir\RelWithDebInfo\vc143.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\src\OpenGL\NeHe_Lesson06-master\src\Lesson06.c"
+         Lesson06.c
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\10\bin\10.0.22621.0\x64\rc.exe /D WIN32 /D NDEBUG /D "CMAKE_INTDIR=\\\"RelWithDebInfo\\\"" /l"0x0409" /I"C:\src\vcpkg\installed\\x86-windows\include" /nologo /fo"Lesson06.dir\RelWithDebInfo\Lesson06.res" "C:\src\OpenGL\NeHe_Lesson06-master\src\Lesson06.rc" 
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX64\x86\link.exe /ERRORREPORT:QUEUE /OUT:"C:\src\OpenGL\NeHe_Lesson06-master\binVS2022X32\RelWithDebInfo\Lesson06.exe" /INCREMENTAL /ILK:"Lesson06.dir\RelWithDebInfo\Lesson06.ilk" /NOLOGO /LIBPATH:"C:\src\vcpkg\installed\\x86-windows\lib" /LIBPATH:"C:\src\vcpkg\installed\\x86-windows\lib\manual-link" glu32.lib opengl32.lib user32.lib advapi32.lib comdlg32.lib winmm.lib gdi32.lib shell32.lib kernel32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\src\vcpkg\installed\\x86-windows\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/src/OpenGL/NeHe_Lesson06-master/binVS2022X32/RelWithDebInfo/Lesson06.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/src/OpenGL/NeHe_Lesson06-master/binVS2022X32/RelWithDebInfo/Lesson06.lib" /MACHINE:X86 /SAFESEH  /machine:X86 Lesson06.dir\RelWithDebInfo\Lesson06.res
+         Lesson06.dir\RelWithDebInfo\Lesson06.obj
+         Lesson06.vcxproj -> C:\src\OpenGL\NeHe_Lesson06-master\binVS2022X32\RelWithDebInfo\Lesson06.exe
+       AppLocalFromInstalled:
+         pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\src\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "C:\src\OpenGL\NeHe_Lesson06-master\binVS2022X32\RelWithDebInfo\Lesson06.exe" "C:\src\vcpkg\installed\\x86-windows\bin" "Lesson06.dir\RelWithDebInfo\Lesson06.tlog\Lesson06.write.1u.tlog" "Lesson06.dir\RelWithDebInfo\vcpkg.applocal.log"
+       FinalizeBuildStatus:
+         Suppression du fichier "Lesson06.dir\RelWithDebInfo\Lesson06.tlog\unsuccessfulbuild".
+         Mise … jour de l'horodatage "Lesson06.dir\RelWithDebInfo\Lesson06.tlog\Lesson06.lastbuildstate".
+     4>G‚n‚ration du projet "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X32\Lesson06.vcxproj" termin‚e (Rebuild cible(s)).
+     2>G‚n‚ration du projet "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X32\Lesson06.vcxproj.metaproj" termin‚e (Rebuild cible(s)).
+     1>G‚n‚ration du projet "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X32\Lesson06.sln" termin‚e (Lesson06:rebuild cible(s)).
+
+La g‚n‚ration a r‚ussi.
+    0 Avertissement(s)
+    0 Erreur(s)
+
+Temps ‚coul‚ 00:00:03.57
+        1 fichier(s) copi‚(s).
+        1 fichier(s) copi‚(s).
+-- Setting MSVC flags Visual C/C++ 64 bits (VS2022 Community)
+-- Selecting Windows SDK version 10.0.22621.0 to target Windows .
+-- The C compiler identification is MSVC 19.33.31629.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.33.31629/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/src/OpenGL/NeHe_Lesson06-master/build.cmake/VS2022X64
+MSBuild version 17.3.1+2badb37d1 for .NET Framework
+La g‚n‚ration a d‚marr‚ 15/09/2022 17:24:17.
+     1>Projet "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X64\Lesson06.sln" sur le noud 1 (Lesson06:rebuild cible(s)).
+     1>ValidateSolutionConfiguration:
+         G‚n‚ration de la configuration de solution "Debug|x64".
+       ValidateProjects:
+         Le projet "ALL_BUILD" n'est pas s‚lectionn‚ dans le cadre d'une g‚n‚ration dans la configuration de solution "Debug|x64".
+     1>Le projet "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X64\Lesson06.sln" (1) g‚nŠre "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X64\Lesson06.vcxproj.metaproj" (2) sur le noud 1 (Rebuild cible(s)).
+     2>Le projet "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X64\Lesson06.vcxproj.metaproj" (2) g‚nŠre "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X64\ZERO_CHECK.vcxproj" (3) sur le noud 1 (Rebuild cible(s)).
+     3>CoreClean:
+         Cr‚ation du r‚pertoire "x64\Debug\ZERO_CHECK\".
+       PrepareForBuild:
+         Cr‚ation du r‚pertoire "x64\Debug\ZERO_CHECK\ZERO_CHECK.tlog\".
+       InitializeBuildStatus:
+         Cr‚ation de "x64\Debug\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild", car "AlwaysCreate" a ‚t‚ sp‚cifi‚.
+       CustomBuild:
+         Checking Build System
+       FinalizeBuildStatus:
+         Suppression du fichier "x64\Debug\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild".
+         Mise … jour de l'horodatage "x64\Debug\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate".
+     3>G‚n‚ration du projet "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X64\ZERO_CHECK.vcxproj" termin‚e (Rebuild cible(s)).
+     2>Le projet "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X64\Lesson06.vcxproj.metaproj" (2) g‚nŠre "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X64\Lesson06.vcxproj" (4) sur le noud 1 (Rebuild cible(s)).
+     4>CoreClean:
+         Cr‚ation du r‚pertoire "Lesson06.dir\Debug\".
+       PrepareForBuild:
+         Cr‚ation du r‚pertoire "Lesson06.dir\Debug\Lesson06.tlog\".
+       InitializeBuildStatus:
+         Cr‚ation de "Lesson06.dir\Debug\Lesson06.tlog\unsuccessfulbuild", car "AlwaysCreate" a ‚t‚ sp‚cifi‚.
+       CustomBuild:
+         Building Custom Rule C:/src/OpenGL/NeHe_Lesson06-master/CMakeLists.txt
+       VcpkgTripletSelection:
+         Using triplet "x64-windows" from "C:\src\vcpkg\installed\\x64-windows\"
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64\CL.exe /c /I"C:\src\vcpkg\installed\\x64-windows\include" /Zi /nologo /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Lesson06.dir\Debug\\" /Fd"Lesson06.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\src\OpenGL\NeHe_Lesson06-master\src\Lesson06.c"
+         Lesson06.c
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\10\bin\10.0.22621.0\x64\rc.exe /D WIN32 /D _DEBUG /D "CMAKE_INTDIR=\\\"Debug\\\"" /l"0x0409" /I"C:\src\vcpkg\installed\\x64-windows\include" /nologo /fo"Lesson06.dir\Debug\Lesson06.res" "C:\src\OpenGL\NeHe_Lesson06-master\src\Lesson06.rc" 
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\src\OpenGL\NeHe_Lesson06-master\binVS2022X64\Debug\Lesson06.exe" /INCREMENTAL /ILK:"Lesson06.dir\Debug\Lesson06.ilk" /NOLOGO /LIBPATH:"C:\src\vcpkg\installed\\x64-windows\debug\lib" /LIBPATH:"C:\src\vcpkg\installed\\x64-windows\debug\lib\manual-link" glu32.lib opengl32.lib user32.lib advapi32.lib comdlg32.lib winmm.lib gdi32.lib shell32.lib kernel32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\src\vcpkg\installed\\x64-windows\debug\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/src/OpenGL/NeHe_Lesson06-master/binVS2022X64/Debug/Lesson06.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/src/OpenGL/NeHe_Lesson06-master/binVS2022X64/Debug/Lesson06.lib" /MACHINE:X64  /machine:x64 Lesson06.dir\Debug\Lesson06.res
+         Lesson06.dir\Debug\Lesson06.obj
+         Lesson06.vcxproj -> C:\src\OpenGL\NeHe_Lesson06-master\binVS2022X64\Debug\Lesson06.exe
+       AppLocalFromInstalled:
+         pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\src\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "C:\src\OpenGL\NeHe_Lesson06-master\binVS2022X64\Debug\Lesson06.exe" "C:\src\vcpkg\installed\\x64-windows\debug\bin" "Lesson06.dir\Debug\Lesson06.tlog\Lesson06.write.1u.tlog" "Lesson06.dir\Debug\vcpkg.applocal.log"
+       FinalizeBuildStatus:
+         Suppression du fichier "Lesson06.dir\Debug\Lesson06.tlog\unsuccessfulbuild".
+         Mise … jour de l'horodatage "Lesson06.dir\Debug\Lesson06.tlog\Lesson06.lastbuildstate".
+     4>G‚n‚ration du projet "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X64\Lesson06.vcxproj" termin‚e (Rebuild cible(s)).
+     2>G‚n‚ration du projet "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X64\Lesson06.vcxproj.metaproj" termin‚e (Rebuild cible(s)).
+     1>G‚n‚ration du projet "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X64\Lesson06.sln" termin‚e (Lesson06:rebuild cible(s)).
+
+La g‚n‚ration a r‚ussi.
+    0 Avertissement(s)
+    0 Erreur(s)
+
+Temps ‚coul‚ 00:00:03.04
+MSBuild version 17.3.1+2badb37d1 for .NET Framework
+La g‚n‚ration a d‚marr‚ 15/09/2022 17:24:20.
+     1>Projet "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X64\Lesson06.sln" sur le noud 1 (Lesson06:rebuild cible(s)).
+     1>ValidateSolutionConfiguration:
+         G‚n‚ration de la configuration de solution "MinSizeRel|x64".
+       ValidateProjects:
+         Le projet "ALL_BUILD" n'est pas s‚lectionn‚ dans le cadre d'une g‚n‚ration dans la configuration de solution "MinSizeRel|x64".
+     1>Le projet "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X64\Lesson06.sln" (1) g‚nŠre "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X64\Lesson06.vcxproj.metaproj" (2) sur le noud 1 (Rebuild cible(s)).
+     2>Le projet "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X64\Lesson06.vcxproj.metaproj" (2) g‚nŠre "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X64\ZERO_CHECK.vcxproj" (3) sur le noud 1 (Rebuild cible(s)).
+     3>CoreClean:
+         Cr‚ation du r‚pertoire "x64\MinSizeRel\ZERO_CHECK\".
+       PrepareForBuild:
+         Cr‚ation du r‚pertoire "x64\MinSizeRel\ZERO_CHECK\ZERO_CHECK.tlog\".
+       InitializeBuildStatus:
+         Cr‚ation de "x64\MinSizeRel\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild", car "AlwaysCreate" a ‚t‚ sp‚cifi‚.
+       CustomBuild:
+         Checking Build System
+       FinalizeBuildStatus:
+         Suppression du fichier "x64\MinSizeRel\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild".
+         Mise … jour de l'horodatage "x64\MinSizeRel\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate".
+     3>G‚n‚ration du projet "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X64\ZERO_CHECK.vcxproj" termin‚e (Rebuild cible(s)).
+     2>Le projet "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X64\Lesson06.vcxproj.metaproj" (2) g‚nŠre "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X64\Lesson06.vcxproj" (4) sur le noud 1 (Rebuild cible(s)).
+     4>CoreClean:
+         Cr‚ation du r‚pertoire "Lesson06.dir\MinSizeRel\".
+       PrepareForBuild:
+         Cr‚ation du r‚pertoire "C:\src\OpenGL\NeHe_Lesson06-master\binVS2022X64\MinSizeRel\".
+         Cr‚ation du r‚pertoire "Lesson06.dir\MinSizeRel\Lesson06.tlog\".
+       InitializeBuildStatus:
+         Cr‚ation de "Lesson06.dir\MinSizeRel\Lesson06.tlog\unsuccessfulbuild", car "AlwaysCreate" a ‚t‚ sp‚cifi‚.
+       CustomBuild:
+         Building Custom Rule C:/src/OpenGL/NeHe_Lesson06-master/CMakeLists.txt
+       VcpkgTripletSelection:
+         Using triplet "x64-windows" from "C:\src\vcpkg\installed\\x64-windows\"
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64\CL.exe /c /I"C:\src\vcpkg\installed\\x64-windows\include" /nologo /W1 /WX- /diagnostics:column /O1 /Ob1 /D _MBCS /D NDEBUG /D "CMAKE_INTDIR=\"MinSizeRel\"" /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Lesson06.dir\MinSizeRel\\" /Fd"Lesson06.dir\MinSizeRel\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\src\OpenGL\NeHe_Lesson06-master\src\Lesson06.c"
+         Lesson06.c
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\10\bin\10.0.22621.0\x64\rc.exe /D WIN32 /D NDEBUG /D "CMAKE_INTDIR=\\\"MinSizeRel\\\"" /l"0x0409" /I"C:\src\vcpkg\installed\\x64-windows\include" /nologo /fo"Lesson06.dir\MinSizeRel\Lesson06.res" "C:\src\OpenGL\NeHe_Lesson06-master\src\Lesson06.rc" 
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\src\OpenGL\NeHe_Lesson06-master\binVS2022X64\MinSizeRel\Lesson06.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\src\vcpkg\installed\\x64-windows\lib" /LIBPATH:"C:\src\vcpkg\installed\\x64-windows\lib\manual-link" glu32.lib opengl32.lib user32.lib advapi32.lib comdlg32.lib winmm.lib gdi32.lib shell32.lib kernel32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\src\vcpkg\installed\\x64-windows\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/src/OpenGL/NeHe_Lesson06-master/binVS2022X64/MinSizeRel/Lesson06.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/src/OpenGL/NeHe_Lesson06-master/binVS2022X64/MinSizeRel/Lesson06.lib" /MACHINE:X64  /machine:x64 Lesson06.dir\MinSizeRel\Lesson06.res
+         Lesson06.dir\MinSizeRel\Lesson06.obj
+         Lesson06.vcxproj -> C:\src\OpenGL\NeHe_Lesson06-master\binVS2022X64\MinSizeRel\Lesson06.exe
+       AppLocalFromInstalled:
+         pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\src\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "C:\src\OpenGL\NeHe_Lesson06-master\binVS2022X64\MinSizeRel\Lesson06.exe" "C:\src\vcpkg\installed\\x64-windows\bin" "Lesson06.dir\MinSizeRel\Lesson06.tlog\Lesson06.write.1u.tlog" "Lesson06.dir\MinSizeRel\vcpkg.applocal.log"
+       FinalizeBuildStatus:
+         Suppression du fichier "Lesson06.dir\MinSizeRel\Lesson06.tlog\unsuccessfulbuild".
+         Mise … jour de l'horodatage "Lesson06.dir\MinSizeRel\Lesson06.tlog\Lesson06.lastbuildstate".
+     4>G‚n‚ration du projet "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X64\Lesson06.vcxproj" termin‚e (Rebuild cible(s)).
+     2>G‚n‚ration du projet "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X64\Lesson06.vcxproj.metaproj" termin‚e (Rebuild cible(s)).
+     1>G‚n‚ration du projet "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X64\Lesson06.sln" termin‚e (Lesson06:rebuild cible(s)).
+
+La g‚n‚ration a r‚ussi.
+    0 Avertissement(s)
+    0 Erreur(s)
+
+Temps ‚coul‚ 00:00:02.93
+MSBuild version 17.3.1+2badb37d1 for .NET Framework
+La g‚n‚ration a d‚marr‚ 15/09/2022 17:24:23.
+     1>Projet "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X64\Lesson06.sln" sur le noud 1 (Lesson06:rebuild cible(s)).
+     1>ValidateSolutionConfiguration:
+         G‚n‚ration de la configuration de solution "Release|x64".
+       ValidateProjects:
+         Le projet "ALL_BUILD" n'est pas s‚lectionn‚ dans le cadre d'une g‚n‚ration dans la configuration de solution "Release|x64".
+     1>Le projet "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X64\Lesson06.sln" (1) g‚nŠre "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X64\Lesson06.vcxproj.metaproj" (2) sur le noud 1 (Rebuild cible(s)).
+     2>Le projet "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X64\Lesson06.vcxproj.metaproj" (2) g‚nŠre "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X64\ZERO_CHECK.vcxproj" (3) sur le noud 1 (Rebuild cible(s)).
+     3>CoreClean:
+         Cr‚ation du r‚pertoire "x64\Release\ZERO_CHECK\".
+       PrepareForBuild:
+         Cr‚ation du r‚pertoire "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\".
+       InitializeBuildStatus:
+         Cr‚ation de "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild", car "AlwaysCreate" a ‚t‚ sp‚cifi‚.
+       CustomBuild:
+         Checking Build System
+       FinalizeBuildStatus:
+         Suppression du fichier "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild".
+         Mise … jour de l'horodatage "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate".
+     3>G‚n‚ration du projet "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X64\ZERO_CHECK.vcxproj" termin‚e (Rebuild cible(s)).
+     2>Le projet "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X64\Lesson06.vcxproj.metaproj" (2) g‚nŠre "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X64\Lesson06.vcxproj" (4) sur le noud 1 (Rebuild cible(s)).
+     4>CoreClean:
+         Cr‚ation du r‚pertoire "Lesson06.dir\Release\".
+       PrepareForBuild:
+         Cr‚ation du r‚pertoire "Lesson06.dir\Release\Lesson06.tlog\".
+       InitializeBuildStatus:
+         Cr‚ation de "Lesson06.dir\Release\Lesson06.tlog\unsuccessfulbuild", car "AlwaysCreate" a ‚t‚ sp‚cifi‚.
+       CustomBuild:
+         Building Custom Rule C:/src/OpenGL/NeHe_Lesson06-master/CMakeLists.txt
+       VcpkgTripletSelection:
+         Using triplet "x64-windows" from "C:\src\vcpkg\installed\\x64-windows\"
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64\CL.exe /c /I"C:\src\vcpkg\installed\\x64-windows\include" /nologo /W1 /WX- /diagnostics:column /O2 /Ob2 /D _MBCS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Lesson06.dir\Release\\" /Fd"Lesson06.dir\Release\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\src\OpenGL\NeHe_Lesson06-master\src\Lesson06.c"
+         Lesson06.c
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\10\bin\10.0.22621.0\x64\rc.exe /D WIN32 /D NDEBUG /D "CMAKE_INTDIR=\\\"Release\\\"" /l"0x0409" /I"C:\src\vcpkg\installed\\x64-windows\include" /nologo /fo"Lesson06.dir\Release\Lesson06.res" "C:\src\OpenGL\NeHe_Lesson06-master\src\Lesson06.rc" 
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\src\OpenGL\NeHe_Lesson06-master\binVS2022X64\Release\Lesson06.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\src\vcpkg\installed\\x64-windows\lib" /LIBPATH:"C:\src\vcpkg\installed\\x64-windows\lib\manual-link" glu32.lib opengl32.lib user32.lib advapi32.lib comdlg32.lib winmm.lib gdi32.lib shell32.lib kernel32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\src\vcpkg\installed\\x64-windows\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/src/OpenGL/NeHe_Lesson06-master/binVS2022X64/Release/Lesson06.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/src/OpenGL/NeHe_Lesson06-master/binVS2022X64/Release/Lesson06.lib" /MACHINE:X64  /machine:x64 Lesson06.dir\Release\Lesson06.res
+         Lesson06.dir\Release\Lesson06.obj
+         Lesson06.vcxproj -> C:\src\OpenGL\NeHe_Lesson06-master\binVS2022X64\Release\Lesson06.exe
+       AppLocalFromInstalled:
+         pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\src\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "C:\src\OpenGL\NeHe_Lesson06-master\binVS2022X64\Release\Lesson06.exe" "C:\src\vcpkg\installed\\x64-windows\bin" "Lesson06.dir\Release\Lesson06.tlog\Lesson06.write.1u.tlog" "Lesson06.dir\Release\vcpkg.applocal.log"
+       FinalizeBuildStatus:
+         Suppression du fichier "Lesson06.dir\Release\Lesson06.tlog\unsuccessfulbuild".
+         Mise … jour de l'horodatage "Lesson06.dir\Release\Lesson06.tlog\Lesson06.lastbuildstate".
+     4>G‚n‚ration du projet "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X64\Lesson06.vcxproj" termin‚e (Rebuild cible(s)).
+     2>G‚n‚ration du projet "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X64\Lesson06.vcxproj.metaproj" termin‚e (Rebuild cible(s)).
+     1>G‚n‚ration du projet "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X64\Lesson06.sln" termin‚e (Lesson06:rebuild cible(s)).
+
+La g‚n‚ration a r‚ussi.
+    0 Avertissement(s)
+    0 Erreur(s)
+
+Temps ‚coul‚ 00:00:03.36
+MSBuild version 17.3.1+2badb37d1 for .NET Framework
+La g‚n‚ration a d‚marr‚ 15/09/2022 17:24:27.
+     1>Projet "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X64\Lesson06.sln" sur le noud 1 (Lesson06:rebuild cible(s)).
+     1>ValidateSolutionConfiguration:
+         G‚n‚ration de la configuration de solution "RelWithDebInfo|x64".
+       ValidateProjects:
+         Le projet "ALL_BUILD" n'est pas s‚lectionn‚ dans le cadre d'une g‚n‚ration dans la configuration de solution "RelWithDebInfo|x64".
+     1>Le projet "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X64\Lesson06.sln" (1) g‚nŠre "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X64\Lesson06.vcxproj.metaproj" (2) sur le noud 1 (Rebuild cible(s)).
+     2>Le projet "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X64\Lesson06.vcxproj.metaproj" (2) g‚nŠre "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X64\ZERO_CHECK.vcxproj" (3) sur le noud 1 (Rebuild cible(s)).
+     3>CoreClean:
+         Cr‚ation du r‚pertoire "x64\RelWithDebInfo\ZERO_CHECK\".
+       PrepareForBuild:
+         Cr‚ation du r‚pertoire "x64\RelWithDebInfo\ZERO_CHECK\ZERO_CHECK.tlog\".
+       InitializeBuildStatus:
+         Cr‚ation de "x64\RelWithDebInfo\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild", car "AlwaysCreate" a ‚t‚ sp‚cifi‚.
+       CustomBuild:
+         Checking Build System
+       FinalizeBuildStatus:
+         Suppression du fichier "x64\RelWithDebInfo\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild".
+         Mise … jour de l'horodatage "x64\RelWithDebInfo\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate".
+     3>G‚n‚ration du projet "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X64\ZERO_CHECK.vcxproj" termin‚e (Rebuild cible(s)).
+     2>Le projet "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X64\Lesson06.vcxproj.metaproj" (2) g‚nŠre "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X64\Lesson06.vcxproj" (4) sur le noud 1 (Rebuild cible(s)).
+     4>CoreClean:
+         Cr‚ation du r‚pertoire "Lesson06.dir\RelWithDebInfo\".
+       PrepareForBuild:
+         Cr‚ation du r‚pertoire "C:\src\OpenGL\NeHe_Lesson06-master\binVS2022X64\RelWithDebInfo\".
+         Cr‚ation du r‚pertoire "Lesson06.dir\RelWithDebInfo\Lesson06.tlog\".
+       InitializeBuildStatus:
+         Cr‚ation de "Lesson06.dir\RelWithDebInfo\Lesson06.tlog\unsuccessfulbuild", car "AlwaysCreate" a ‚t‚ sp‚cifi‚.
+       CustomBuild:
+         Building Custom Rule C:/src/OpenGL/NeHe_Lesson06-master/CMakeLists.txt
+       VcpkgTripletSelection:
+         Using triplet "x64-windows" from "C:\src\vcpkg\installed\\x64-windows\"
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64\CL.exe /c /I"C:\src\vcpkg\installed\\x64-windows\include" /Zi /nologo /W1 /WX- /diagnostics:column /O2 /Ob1 /D _MBCS /D NDEBUG /D "CMAKE_INTDIR=\"RelWithDebInfo\"" /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Lesson06.dir\RelWithDebInfo\\" /Fd"Lesson06.dir\RelWithDebInfo\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\src\OpenGL\NeHe_Lesson06-master\src\Lesson06.c"
+         Lesson06.c
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\10\bin\10.0.22621.0\x64\rc.exe /D WIN32 /D NDEBUG /D "CMAKE_INTDIR=\\\"RelWithDebInfo\\\"" /l"0x0409" /I"C:\src\vcpkg\installed\\x64-windows\include" /nologo /fo"Lesson06.dir\RelWithDebInfo\Lesson06.res" "C:\src\OpenGL\NeHe_Lesson06-master\src\Lesson06.rc" 
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\src\OpenGL\NeHe_Lesson06-master\binVS2022X64\RelWithDebInfo\Lesson06.exe" /INCREMENTAL /ILK:"Lesson06.dir\RelWithDebInfo\Lesson06.ilk" /NOLOGO /LIBPATH:"C:\src\vcpkg\installed\\x64-windows\lib" /LIBPATH:"C:\src\vcpkg\installed\\x64-windows\lib\manual-link" glu32.lib opengl32.lib user32.lib advapi32.lib comdlg32.lib winmm.lib gdi32.lib shell32.lib kernel32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\src\vcpkg\installed\\x64-windows\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/src/OpenGL/NeHe_Lesson06-master/binVS2022X64/RelWithDebInfo/Lesson06.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/src/OpenGL/NeHe_Lesson06-master/binVS2022X64/RelWithDebInfo/Lesson06.lib" /MACHINE:X64  /machine:x64 Lesson06.dir\RelWithDebInfo\Lesson06.res
+         Lesson06.dir\RelWithDebInfo\Lesson06.obj
+         Lesson06.vcxproj -> C:\src\OpenGL\NeHe_Lesson06-master\binVS2022X64\RelWithDebInfo\Lesson06.exe
+       AppLocalFromInstalled:
+         pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\src\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "C:\src\OpenGL\NeHe_Lesson06-master\binVS2022X64\RelWithDebInfo\Lesson06.exe" "C:\src\vcpkg\installed\\x64-windows\bin" "Lesson06.dir\RelWithDebInfo\Lesson06.tlog\Lesson06.write.1u.tlog" "Lesson06.dir\RelWithDebInfo\vcpkg.applocal.log"
+       FinalizeBuildStatus:
+         Suppression du fichier "Lesson06.dir\RelWithDebInfo\Lesson06.tlog\unsuccessfulbuild".
+         Mise … jour de l'horodatage "Lesson06.dir\RelWithDebInfo\Lesson06.tlog\Lesson06.lastbuildstate".
+     4>G‚n‚ration du projet "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X64\Lesson06.vcxproj" termin‚e (Rebuild cible(s)).
+     2>G‚n‚ration du projet "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X64\Lesson06.vcxproj.metaproj" termin‚e (Rebuild cible(s)).
+     1>G‚n‚ration du projet "C:\src\OpenGL\NeHe_Lesson06-master\build.cmake\VS2022X64\Lesson06.sln" termin‚e (Lesson06:rebuild cible(s)).
+
+La g‚n‚ration a r‚ussi.
+    0 Avertissement(s)
+    0 Erreur(s)
+
+Temps ‚coul‚ 00:00:03.59
+        1 fichier(s) copi‚(s).
+
+RUSSITEÿ: la valeur sp‚cifi‚e a ‚t‚ enregistr‚e.
+
+RUSSITEÿ: la valeur sp‚cifi‚e a ‚t‚ enregistr‚e.
+        1 fichier(s) copi‚(s).
+-- Setting CLANG flags with MSVC 32 bits
+-- The C compiler identification is Clang 15.0.0 with GNU-like command-line
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files (x86)/LLVM/bin/clang.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/src/OpenGL/NeHe_Lesson06-master/build.cmake/CLANGX32/Debug
+-- Setting CLANG flags with MSVC 32 bits
+-- The C compiler identification is Clang 15.0.0 with GNU-like command-line
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files (x86)/LLVM/bin/clang.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/src/OpenGL/NeHe_Lesson06-master/build.cmake/CLANGX32/Release
+Scanning dependencies of target Lesson06
+[ 33%] Building C object CMakeFiles/Lesson06.dir/src/Lesson06.c.obj
+[ 66%] Building RC object CMakeFiles/Lesson06.dir/src/Lesson06.rc.res
+[100%] Linking C executable C:\src\OpenGL\NeHe_Lesson06-master\binCLANGX32\Debug\Lesson06.exe
+[100%] Built target Lesson06
+Scanning dependencies of target Lesson06
+[ 33%] Building C object CMakeFiles/Lesson06.dir/src/Lesson06.c.obj
+[ 66%] Building RC object CMakeFiles/Lesson06.dir/src/Lesson06.rc.res
+[100%] Linking C executable C:\src\OpenGL\NeHe_Lesson06-master\binCLANGX32\Release\Lesson06.exe
+[100%] Built target Lesson06
+L'op‚ration a r‚ussi.
+L'op‚ration a r‚ussi.
+
+RUSSITEÿ: la valeur sp‚cifi‚e a ‚t‚ enregistr‚e.
+
+RUSSITEÿ: la valeur sp‚cifi‚e a ‚t‚ enregistr‚e.
+        1 fichier(s) copi‚(s).
+-- Setting CLANG flags with MSVC 64 bits
+-- The C compiler identification is Clang 15.0.0 with GNU-like command-line
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files/LLVM/bin/clang.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/src/OpenGL/NeHe_Lesson06-master/build.cmake/CLANGX64/Debug
+-- Setting CLANG flags with MSVC 64 bits
+-- The C compiler identification is Clang 15.0.0 with GNU-like command-line
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files/LLVM/bin/clang.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/src/OpenGL/NeHe_Lesson06-master/build.cmake/CLANGX64/Release
+Scanning dependencies of target Lesson06
+[ 33%] Building C object CMakeFiles/Lesson06.dir/src/Lesson06.c.obj
+[ 66%] Building RC object CMakeFiles/Lesson06.dir/src/Lesson06.rc.res
+[100%] Linking C executable C:\src\OpenGL\NeHe_Lesson06-master\binCLANGX64\Debug\Lesson06.exe
+[100%] Built target Lesson06
+Scanning dependencies of target Lesson06
+[ 33%] Building C object CMakeFiles/Lesson06.dir/src/Lesson06.c.obj
+[ 66%] Building RC object CMakeFiles/Lesson06.dir/src/Lesson06.rc.res
+[100%] Linking C executable C:\src\OpenGL\NeHe_Lesson06-master\binCLANGX64\Release\Lesson06.exe
+[100%] Built target Lesson06
+L'op‚ration a r‚ussi.
+L'op‚ration a r‚ussi.
+        1 fichier(s) copi‚(s).
+-- Setting CLANG flags with Mingw32
+-- The C compiler identification is Clang 14.0.6
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/mingw32/bin/clang.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/src/OpenGL/NeHe_Lesson06-master/build.cmake/CLANGW32/Debug
+-- Setting CLANG flags with Mingw32
+-- The C compiler identification is Clang 14.0.6
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/mingw32/bin/clang.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/src/OpenGL/NeHe_Lesson06-master/build.cmake/CLANGW32/Release
+Scanning dependencies of target Lesson06
+[ 33%] Building C object CMakeFiles/Lesson06.dir/src/Lesson06.c.obj
+[ 66%] Building RC object CMakeFiles/Lesson06.dir/src/Lesson06.rc.obj
+[100%] Linking C executable C:\src\OpenGL\NeHe_Lesson06-master\binCLANGW32\Debug\Lesson06.exe
+[100%] Built target Lesson06
+Scanning dependencies of target Lesson06
+[ 33%] Building C object CMakeFiles/Lesson06.dir/src/Lesson06.c.obj
+[ 66%] Building RC object CMakeFiles/Lesson06.dir/src/Lesson06.rc.obj
+[100%] Linking C executable C:\src\OpenGL\NeHe_Lesson06-master\binCLANGW32\Release\Lesson06.exe
+[100%] Built target Lesson06
+        1 fichier(s) copi‚(s).
+-- Setting CLANG flags with Mingw64
+-- The C compiler identification is Clang 14.0.6
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/mingw64/bin/clang.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/src/OpenGL/NeHe_Lesson06-master/build.cmake/CLANGW64/Debug
+-- Setting CLANG flags with Mingw64
+-- The C compiler identification is Clang 14.0.6
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/mingw64/bin/clang.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/src/OpenGL/NeHe_Lesson06-master/build.cmake/CLANGW64/Release
+Scanning dependencies of target Lesson06
+[ 33%] Building C object CMakeFiles/Lesson06.dir/src/Lesson06.c.obj
+[ 66%] Building RC object CMakeFiles/Lesson06.dir/src/Lesson06.rc.obj
+[100%] Linking C executable C:\src\OpenGL\NeHe_Lesson06-master\binCLANGW64\Debug\Lesson06.exe
+[100%] Built target Lesson06
+Scanning dependencies of target Lesson06
+[ 33%] Building C object CMakeFiles/Lesson06.dir/src/Lesson06.c.obj
+[ 66%] Building RC object CMakeFiles/Lesson06.dir/src/Lesson06.rc.obj
+[100%] Linking C executable C:\src\OpenGL\NeHe_Lesson06-master\binCLANGW64\Release\Lesson06.exe
+[100%] Built target Lesson06
+        1 fichier(s) copi‚(s).
+-- Setting CLANG flags with MSYS/Mingw32
+-- The C compiler identification is Clang 15.0.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/msys64/mingw32/bin/clang.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/src/OpenGL/NeHe_Lesson06-master/build.cmake/CLANGMW32/Debug
+-- Setting CLANG flags with MSYS/Mingw32
+-- The C compiler identification is Clang 15.0.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/msys64/mingw32/bin/clang.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/src/OpenGL/NeHe_Lesson06-master/build.cmake/CLANGMW32/Release
+Scanning dependencies of target Lesson06
+[ 33%] Building C object CMakeFiles/Lesson06.dir/src/Lesson06.c.obj
+[ 66%] Building RC object CMakeFiles/Lesson06.dir/src/Lesson06.rc.obj
+[100%] Linking C executable C:\src\OpenGL\NeHe_Lesson06-master\binCLANGMW32\Debug\Lesson06.exe
+[100%] Built target Lesson06
+Scanning dependencies of target Lesson06
+[ 33%] Building C object CMakeFiles/Lesson06.dir/src/Lesson06.c.obj
+[ 66%] Building RC object CMakeFiles/Lesson06.dir/src/Lesson06.rc.obj
+[100%] Linking C executable C:\src\OpenGL\NeHe_Lesson06-master\binCLANGMW32\Release\Lesson06.exe
+[100%] Built target Lesson06
+        1 fichier(s) copi‚(s).
+-- Setting CLANG flags with MSYS/Mingw64
+-- The C compiler identification is Clang 15.0.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/msys64/mingw64/bin/clang.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/src/OpenGL/NeHe_Lesson06-master/build.cmake/CLANGMW64/Debug
+-- Setting CLANG flags with MSYS/Mingw64
+-- The C compiler identification is Clang 15.0.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/msys64/mingw64/bin/clang.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/src/OpenGL/NeHe_Lesson06-master/build.cmake/CLANGMW64/Release
+Scanning dependencies of target Lesson06
+[ 33%] Building C object CMakeFiles/Lesson06.dir/src/Lesson06.c.obj
+[ 66%] Building RC object CMakeFiles/Lesson06.dir/src/Lesson06.rc.obj
+[100%] Linking C executable C:\src\OpenGL\NeHe_Lesson06-master\binCLANGMW64\Debug\Lesson06.exe
+[100%] Built target Lesson06
+Scanning dependencies of target Lesson06
+[ 33%] Building C object CMakeFiles/Lesson06.dir/src/Lesson06.c.obj
+[ 66%] Building RC object CMakeFiles/Lesson06.dir/src/Lesson06.rc.obj
+[100%] Linking C executable C:\src\OpenGL\NeHe_Lesson06-master\binCLANGMW64\Release\Lesson06.exe
+[100%] Built target Lesson06
+        1 fichier(s) copi‚(s).
+        1 fichier(s) copi‚(s).
+rcc -32 -IC:\dm\include\win32 -IC:\dm\include -oLesson06.res  src\Lesson06.rc 
+
+dmc -mn -c -WA -H -g -D_DEBUG -DDEBUG -IC:\dm\include\win32 -IC:\dm\stlport\stlport -IC:\dm\include  -oLesson06.obj src\Lesson06.c
+								NULL)))								// Dont Pass Anything To WM_CREATE
+								      ^
+src\Lesson06.c(476) : Warning 2: possible unintended assignment
+    if (!(hDC=GetDC(hWnd)))                         // Did We Get A Device Context?
+                          ^
+src\Lesson06.c(485) : Warning 2: possible unintended assignment
+	if (!(PixelFormat=ChoosePixelFormat(hDC,&pfd)))	// Did Windows Find A Matching Pixel Format?
+	                                              ^
+src\Lesson06.c(492) : Warning 2: possible unintended assignment
+	if (!(hRC=wglCreateContext(hDC)))				// Are We Able To Get A Rendering Context?
+	                                ^
+src\Lesson06.c(506) : Warning 2: possible unintended assignment
+
+link /NOLOGO /subsystem:windows Lesson06.obj, Lesson06.exe, , glu32.lib opengl32.lib user32.lib advapi32.lib comdlg32.lib winmm.lib gdi32.lib shell32.lib kernel32.lib, , Lesson06.res 
+
+C:\src\OpenGL\NeHe_Lesson06-master\Lesson06.exe
+        1 fichier(s) d‚plac‚(s).
+C:\src\OpenGL\NeHe_Lesson06-master\Lesson06.obj
+        1 fichier(s) d‚plac‚(s).
+C:\src\OpenGL\NeHe_Lesson06-master\Lesson06.res
+        1 fichier(s) d‚plac‚(s).
+rcc -32 -IC:\dm\include\win32 -IC:\dm\include -oLesson06.res  src\Lesson06.rc 
+
+dmc -mn -c -WA -H -DNDEBUG -IC:\dm\include\win32 -IC:\dm\stlport\stlport -IC:\dm\include  -oLesson06.obj src\Lesson06.c
+								NULL)))								// Dont Pass Anything To WM_CREATE
+								      ^
+src\Lesson06.c(476) : Warning 2: possible unintended assignment
+    if (!(hDC=GetDC(hWnd)))                         // Did We Get A Device Context?
+                          ^
+src\Lesson06.c(485) : Warning 2: possible unintended assignment
+	if (!(PixelFormat=ChoosePixelFormat(hDC,&pfd)))	// Did Windows Find A Matching Pixel Format?
+	                                              ^
+src\Lesson06.c(492) : Warning 2: possible unintended assignment
+	if (!(hRC=wglCreateContext(hDC)))				// Are We Able To Get A Rendering Context?
+	                                ^
+src\Lesson06.c(506) : Warning 2: possible unintended assignment
+
+link /NOLOGO /subsystem:windows Lesson06.obj, Lesson06.exe, , glu32.lib opengl32.lib user32.lib advapi32.lib comdlg32.lib winmm.lib gdi32.lib shell32.lib kernel32.lib, , Lesson06.res 
+
+C:\src\OpenGL\NeHe_Lesson06-master\Lesson06.exe
+        1 fichier(s) d‚plac‚(s).
+C:\src\OpenGL\NeHe_Lesson06-master\Lesson06.obj
+        1 fichier(s) d‚plac‚(s).
+C:\src\OpenGL\NeHe_Lesson06-master\Lesson06.res
+        1 fichier(s) d‚plac‚(s).
+        1 fichier(s) copi‚(s).
+        1 fichier(s) copi‚(s).
+0 errors, 1 warning
+    lrc -IC:\lcc\include src\Lesson06.rc -IC:\lcc\include
+    lcc -g2 -D_DEBUG -DDEBUG -DWIN32_LEAN_AND_MEAN src\Lesson06.c -IC:\lcc\include
+    lcclnk Lesson06.obj Lesson06.res -LC:\lcc\lib glu32.lib opengl32.lib user32.lib advapi32.lib comdlg32.lib winmm.lib gdi32.lib shell32.lib kernel32.lib
+Time: 0.293 seconds
+C:\src\OpenGL\NeHe_Lesson06-master\lesson06.exe
+        1 fichier(s) d‚plac‚(s).
+C:\src\OpenGL\NeHe_Lesson06-master\lesson06.obj
+        1 fichier(s) d‚plac‚(s).
+C:\src\OpenGL\NeHe_Lesson06-master\lesson06.res
+        1 fichier(s) d‚plac‚(s).
+0 errors, 1 warning
+    lrc -IC:\lcc\include src\Lesson06.rc -IC:\lcc\include
+    lcc -DNDEBUG -DWIN32_LEAN_AND_MEAN src\Lesson06.c -IC:\lcc\include
+    lcclnk Lesson06.obj Lesson06.res -LC:\lcc\lib glu32.lib opengl32.lib user32.lib advapi32.lib comdlg32.lib winmm.lib gdi32.lib shell32.lib kernel32.lib
+Time: 0.188 seconds
+C:\src\OpenGL\NeHe_Lesson06-master\lesson06.exe
+        1 fichier(s) d‚plac‚(s).
+C:\src\OpenGL\NeHe_Lesson06-master\lesson06.obj
+        1 fichier(s) d‚plac‚(s).
+C:\src\OpenGL\NeHe_Lesson06-master\lesson06.res
+        1 fichier(s) d‚plac‚(s).
+        1 fichier(s) copi‚(s).
+        1 fichier(s) copi‚(s).
+    lrc -IC:\lcc64\include64 src\Lesson06.rc -IC:\lcc64\include64
+    lcc64 -g2 -D_DEBUG -DDEBUG -DWIN32_LEAN_AND_MEAN src\Lesson06.c -IC:\lcc64\include64
+0 errors, 1 warning
+    lcclnk64 Lesson06.obj Lesson06.res -LC:\lcc64\lib64 glu32.lib opengl32.lib user32.lib advapi32.lib comdlg32.lib winmm.lib gdi32.lib shell32.lib kernel32.lib
+Time: 0.037 seconds
+C:\src\OpenGL\NeHe_Lesson06-master\lesson06.exe
+        1 fichier(s) d‚plac‚(s).
+C:\src\OpenGL\NeHe_Lesson06-master\lesson06.obj
+        1 fichier(s) d‚plac‚(s).
+C:\src\OpenGL\NeHe_Lesson06-master\lesson06.res
+        1 fichier(s) d‚plac‚(s).
+    lrc -IC:\lcc64\include64 src\Lesson06.rc -IC:\lcc64\include64
+    lcc64 -DNDEBUG -DWIN32_LEAN_AND_MEAN src\Lesson06.c -IC:\lcc64\include64
+0 errors, 1 warning
+    lcclnk64 Lesson06.obj Lesson06.res -LC:\lcc64\lib64 glu32.lib opengl32.lib user32.lib advapi32.lib comdlg32.lib winmm.lib gdi32.lib shell32.lib kernel32.lib
+Time: 0.018 seconds
+C:\src\OpenGL\NeHe_Lesson06-master\lesson06.exe
+        1 fichier(s) d‚plac‚(s).
+C:\src\OpenGL\NeHe_Lesson06-master\lesson06.obj
+        1 fichier(s) d‚plac‚(s).
+C:\src\OpenGL\NeHe_Lesson06-master\lesson06.res
+        1 fichier(s) d‚plac‚(s).
+        1 fichier(s) copi‚(s).
+        1 fichier(s) copi‚(s).
+	porc /IC:\pellesC\include\Win /IC:\pellesC\include src\Lesson06.rc /IC:\pellesC\include\Win /IC:\pellesC\include /FoLesson06.res
+	pocc /nologo /Zi /Ze /c /D_DEBUG /DDEBUG /DWIN32_LEAN_AND_MEAN -Tx86-coff /D_X86_ src\Lesson06.c /IC:\pellesC\include\Win /IC:\pellesC\include /FoLesson06.obj
+	polink /nologo /subsystem:windows /debug /MACHINE:X86 Lesson06.obj Lesson06.res /LIBPATH:C:\PellesC\lib\Win /LIBPATH:C:\PellesC\lib glu32.lib opengl32.lib user32.lib advapi32.lib comdlg32.lib winmm.lib gdi32.lib shell32.lib kernel32.lib
+Writing debug information
+Compacting debug information
+C:\src\OpenGL\NeHe_Lesson06-master\Lesson06.exe
+        1 fichier(s) d‚plac‚(s).
+C:\src\OpenGL\NeHe_Lesson06-master\Lesson06.obj
+        1 fichier(s) d‚plac‚(s).
+C:\src\OpenGL\NeHe_Lesson06-master\Lesson06.res
+        1 fichier(s) d‚plac‚(s).
+	porc /IC:\pellesC\include\Win /IC:\pellesC\include src\Lesson06.rc /IC:\pellesC\include\Win /IC:\pellesC\include /FoLesson06.res
+	pocc /nologo /Zi /Ze /c /DNDEBUG /DWIN32_LEAN_AND_MEAN -Tx86-coff /D_X86_ src\Lesson06.c /IC:\pellesC\include\Win /IC:\pellesC\include /FoLesson06.obj
+	polink /nologo /subsystem:windows /MACHINE:X86 Lesson06.obj Lesson06.res /LIBPATH:C:\PellesC\lib\Win /LIBPATH:C:\PellesC\lib glu32.lib opengl32.lib user32.lib advapi32.lib comdlg32.lib winmm.lib gdi32.lib shell32.lib kernel32.lib
+C:\src\OpenGL\NeHe_Lesson06-master\Lesson06.exe
+        1 fichier(s) d‚plac‚(s).
+C:\src\OpenGL\NeHe_Lesson06-master\Lesson06.obj
+        1 fichier(s) d‚plac‚(s).
+C:\src\OpenGL\NeHe_Lesson06-master\Lesson06.res
+        1 fichier(s) d‚plac‚(s).
+        1 fichier(s) copi‚(s).
+        1 fichier(s) copi‚(s).
+	porc /IC:\pellesC\include\Win /IC:\pellesC\include src\Lesson06.rc /IC:\pellesC\include\Win /IC:\pellesC\include /FoLesson06.res
+	pocc /nologo /Zi /Ze /c /D_DEBUG /DDEBUG /DWIN32_LEAN_AND_MEAN -Tx64-coff /D_AMD64_ /D_WIN64 src\Lesson06.c /IC:\pellesC\include\Win /IC:\pellesC\include /FoLesson06.obj
+	polink /nologo /subsystem:windows /debug /MACHINE:X64 Lesson06.obj Lesson06.res /LIBPATH:C:\PellesC\lib\Win64 /LIBPATH:C:\PellesC\lib glu32.lib opengl32.lib user32.lib advapi32.lib comdlg32.lib winmm.lib gdi32.lib shell32.lib kernel32.lib
+Writing debug information
+Compacting debug information
+C:\src\OpenGL\NeHe_Lesson06-master\Lesson06.exe
+        1 fichier(s) d‚plac‚(s).
+C:\src\OpenGL\NeHe_Lesson06-master\Lesson06.obj
+        1 fichier(s) d‚plac‚(s).
+C:\src\OpenGL\NeHe_Lesson06-master\Lesson06.res
+        1 fichier(s) d‚plac‚(s).
+	porc /IC:\pellesC\include\Win /IC:\pellesC\include src\Lesson06.rc /IC:\pellesC\include\Win /IC:\pellesC\include /FoLesson06.res
+	pocc /nologo /Zi /Ze /c /DNDEBUG /DWIN32_LEAN_AND_MEAN -Tx64-coff /D_AMD64_ /D_WIN64 src\Lesson06.c /IC:\pellesC\include\Win /IC:\pellesC\include /FoLesson06.obj
+	polink /nologo /subsystem:windows /MACHINE:X64 Lesson06.obj Lesson06.res /LIBPATH:C:\PellesC\lib\Win64 /LIBPATH:C:\PellesC\lib glu32.lib opengl32.lib user32.lib advapi32.lib comdlg32.lib winmm.lib gdi32.lib shell32.lib kernel32.lib
+C:\src\OpenGL\NeHe_Lesson06-master\Lesson06.exe
+        1 fichier(s) d‚plac‚(s).
+C:\src\OpenGL\NeHe_Lesson06-master\Lesson06.obj
+        1 fichier(s) d‚plac‚(s).
+C:\src\OpenGL\NeHe_Lesson06-master\Lesson06.res
+        1 fichier(s) d‚plac‚(s).
+        1 fichier(s) copi‚(s).
+        1 fichier(s) copi‚(s).
+Open Watcom Make Version 2.0 beta Dec  3 2021 00:22:17 (32-bit)
+Copyright (c) 2002-2021 The Open Watcom Contributors. All Rights Reserved.
+Portions Copyright (c) 1988-2002 Sybase, Inc. All Rights Reserved.
+Source code is available under the Sybase Open Watcom Public License.
+See http://www.openwatcom.org/ for details.
+	wrc -q -r -iC:\watcom\h\nt -iC:\watcom\h src\Lesson06.rc -foLesson06.res
+	wcl386 -q -c -dDEBUG -d_DEBUG -bcl=nt src\Lesson06.c -iC:\watcom\h\nt -iC:\watcom\h -foLesson06.obj
+	wlink option quiet system nt_win LIBP C:\watcom\lib386\nt;C:\watcom\lib386 file Lesson06.obj name Lesson06.exe library glu32.lib,opengl32.lib,user32.lib,advapi32.lib,comdlg32.lib,winmm.lib,gdi32.lib,shell32.lib,kernel32.lib option resource=Lesson06.res
+C:\src\OpenGL\NeHe_Lesson06-master\Lesson06.exe
+        1 fichier(s) d‚plac‚(s).
+C:\src\OpenGL\NeHe_Lesson06-master\Lesson06.obj
+        1 fichier(s) d‚plac‚(s).
+C:\src\OpenGL\NeHe_Lesson06-master\Lesson06.res
+        1 fichier(s) d‚plac‚(s).
+Open Watcom Make Version 2.0 beta Dec  3 2021 00:22:17 (32-bit)
+Copyright (c) 2002-2021 The Open Watcom Contributors. All Rights Reserved.
+Portions Copyright (c) 1988-2002 Sybase, Inc. All Rights Reserved.
+Source code is available under the Sybase Open Watcom Public License.
+See http://www.openwatcom.org/ for details.
+	wrc -q -r -iC:\watcom\h\nt -iC:\watcom\h src\Lesson06.rc -foLesson06.res
+	wcl386 -q -c -dNDEBUG -bcl=nt src\Lesson06.c -iC:\watcom\h\nt -iC:\watcom\h -foLesson06.obj
+	wlink option quiet system nt_win LIBP C:\watcom\lib386\nt;C:\watcom\lib386 file Lesson06.obj name Lesson06.exe library glu32.lib,opengl32.lib,user32.lib,advapi32.lib,comdlg32.lib,winmm.lib,gdi32.lib,shell32.lib,kernel32.lib option resource=Lesson06.res
+C:\src\OpenGL\NeHe_Lesson06-master\Lesson06.exe
+        1 fichier(s) d‚plac‚(s).
+C:\src\OpenGL\NeHe_Lesson06-master\Lesson06.obj
+        1 fichier(s) d‚plac‚(s).
+C:\src\OpenGL\NeHe_Lesson06-master\Lesson06.res
+        1 fichier(s) d‚plac‚(s).
+        1 fichier(s) copi‚(s).
+        1 fichier(s) copi‚(s).
+Open Watcom Make Version 2.0 beta Dec  3 2021 00:38:10 (64-bit)
+Copyright (c) 2002-2021 The Open Watcom Contributors. All Rights Reserved.
+Portions Copyright (c) 1988-2002 Sybase, Inc. All Rights Reserved.
+Source code is available under the Sybase Open Watcom Public License.
+See http://www.openwatcom.org/ for details.
+	wrc -q -r -iC:\watcom\h\nt -iC:\watcom\h src\Lesson06.rc -foLesson06.res
+	wcl386 -q -c -dDEBUG -d_DEBUG -bcl=nt src\Lesson06.c -iC:\watcom\h\nt -iC:\watcom\h -foLesson06.obj
+	wlink option quiet system nt_win LIBP C:\watcom\lib386\nt;C:\watcom\lib386 file Lesson06.obj name Lesson06.exe library glu32.lib,opengl32.lib,user32.lib,advapi32.lib,comdlg32.lib,winmm.lib,gdi32.lib,shell32.lib,kernel32.lib option resource=Lesson06.res
+C:\src\OpenGL\NeHe_Lesson06-master\Lesson06.exe
+        1 fichier(s) d‚plac‚(s).
+C:\src\OpenGL\NeHe_Lesson06-master\Lesson06.obj
+        1 fichier(s) d‚plac‚(s).
+C:\src\OpenGL\NeHe_Lesson06-master\Lesson06.res
+        1 fichier(s) d‚plac‚(s).
+Open Watcom Make Version 2.0 beta Dec  3 2021 00:38:10 (64-bit)
+Copyright (c) 2002-2021 The Open Watcom Contributors. All Rights Reserved.
+Portions Copyright (c) 1988-2002 Sybase, Inc. All Rights Reserved.
+Source code is available under the Sybase Open Watcom Public License.
+See http://www.openwatcom.org/ for details.
+	wrc -q -r -iC:\watcom\h\nt -iC:\watcom\h src\Lesson06.rc -foLesson06.res
+	wcl386 -q -c -dNDEBUG -bcl=nt src\Lesson06.c -iC:\watcom\h\nt -iC:\watcom\h -foLesson06.obj
+	wlink option quiet system nt_win LIBP C:\watcom\lib386\nt;C:\watcom\lib386 file Lesson06.obj name Lesson06.exe library glu32.lib,opengl32.lib,user32.lib,advapi32.lib,comdlg32.lib,winmm.lib,gdi32.lib,shell32.lib,kernel32.lib option resource=Lesson06.res
+C:\src\OpenGL\NeHe_Lesson06-master\Lesson06.exe
+        1 fichier(s) d‚plac‚(s).
+C:\src\OpenGL\NeHe_Lesson06-master\Lesson06.obj
+        1 fichier(s) d‚plac‚(s).
+C:\src\OpenGL\NeHe_Lesson06-master\Lesson06.res
+        1 fichier(s) d‚plac‚(s).
+
+C:\src\OpenGL\NeHe_Lesson06-master>"C:\Program Files\Python310\python.exe" ..\..\tools\Size_exec.py Lesson06 
+Date dernière modification du source .\src\Lesson06.c : Fri Mar 25 14:47:11 2022
+Date dernière modification du source .\src\Lesson06.rc : Thu Sep 15 16:46:15 2022
+Date dernière modification du source .\src\resource.h : Thu Feb 17 14:53:47 2022
+Tableau récapitulatif de la taille des exécutables générés pour le projet : Lesson06
+  Debug Borland C/C++ :      20.5 KB
+  Release Borland C/C++ :    20.5 KB
+  Debug CLANG MSYS W32 :     142.6 KB
+  Release CLANG MSYS W32 :   130.2 KB
+  Debug CLANG MSYS W64 :     156.8 KB
+  Release CLANG MSYS W64 :   147.5 KB
+  Debug CLANG Mingw32 :      88.5 KB
+  Release CLANG Mingw32 :    78.8 KB
+  Debug CLANG Mingw64 :      93.8 KB
+  Release CLANG Mingw64 :    85.7 KB
+  Debug CLANG VS2022 32 :    31.5 KB
+  Release CLANG VS2022 32 :  23.0 KB
+  Debug CLANG VS2022 64 :    35.0 KB
+  Release CLANG VS2022 64 :  25.0 KB
+  Debug Cygwin 32 :          150.1 KB
+  Release Cygwin 32 :        30.0 KB
+  Debug Cygwin 64 :          168.9 KB
+  Release Cygwin 64 :        32.5 KB
+  Debug Mingw64 CPP :        169.9 KB
+  Release Mingw64 CPP :      33.0 KB
+  Debug DMC 32 :             39.5 KB
+  Release DMC 32 :           39.5 KB
+  Debug lcc 32 :             55.3 KB
+  Release lcc 32 :           44.6 KB
+  Debug lcc 64 :             52.9 KB
+  Release lcc 64 :           40.4 KB
+  Debug Mingw32 officiel :   82.9 KB
+  Release Mingw32 officiel : 39.5 KB
+  Debug Mingw32 WinLibs :    93.1 KB
+  Release Mingw32 WinLibs :  36.5 KB
+  Debug Mingw64 WinLibs :    100.0 KB
+  Release Mingw64 WinLibs :  37.5 KB
+  Debug Mingw64 CB :         112.7 KB
+  Release Mingw64 CB :       31.5 KB
+  Debug Mingw32 MSYS2 :      146.2 KB
+  Release Mingw32 MSYS2 :    34.5 KB
+  Debug Mingw64 MSYS2 :      162.9 KB
+  Release Mingw64 MSYS2 :    33.0 KB
+  Debug OpenWatcom 32 :      33.0 KB
+  Release OpenWatcom 32 :    33.0 KB
+  Debug OpenWatcom 64 :      33.0 KB
+  Release OpenWatcom 64 :    33.0 KB
+  Debug Pelles C 32 :        62.0 KB
+  Release Pelles C 32 :      37.5 KB
+  Debug Pelles C 64 :        69.0 KB
+  Release Pelles C 64 :      45.0 KB
+  Debug TDM Mingw32 :        71.1 KB
+  Release TDM Mingw32 :      40.0 KB
+  Debug TDM Mingw64 :        239.0 KB
+  Release TDM Mingw64 :      78.5 KB
+  Debug VS 2022 32 :         60.0 KB
+  Release VS 2022 32 :       24.0 KB
+  Debug VS 2022 64 :         72.5 KB
+  Release VS 2022 64 :       25.5 KB
+
+C:\src\OpenGL\NeHe_Lesson06-master>"C:\Program Files\Python310\python.exe" ..\..\tools\Calc_checksums.py Lesson06 
+Tableau récapitulatif des différents checksums générés pour le projet : Lesson06
+Calcul des cheksums du fichier : .\binBC55\Debug\Lesson06.exe.
+Checksum CRC32  is 2919538a.
+Checksum MD5 is 26015d39f041d089f0d013b9e0d9b76e.
+Checksum SHA256 is 7ec86d64cdd724d6140b746f110a4ba1ae9491c9b7eef571b9f65847f6310d9d.
+Checksum SHA512 is 987a8aca638e480fb341bbceb34deff88fd269bc9fa025584a55244d2a75afcebe21929f5ab5a8ea53725458ec24476449abd50990ed782ec3fde9e9077f638e.
+Checksum RipeMD160 is 6b7da4644a2f7d680d250b890efaed36446045a5.
+Checksum BLAKE2B is 54b0cb555c933e2976b5d9f76d1d6f8c3eca38a6a8a1e8412ca18d6565bc4b7519967ec7de4604450215e8b44658d3f7dfc7c61114ee81e7d6c3ff02a5e894ea.
+Calcul des cheksums du fichier : .\binBC55\Release\Lesson06.exe.
+Checksum CRC32  is 1c2bdb50.
+Checksum MD5 is 58f904b2bfe618562cf83d3b87997150.
+Checksum SHA256 is 42a44750a9c10b5eea177384603e4f8d4358bdc864edc80d3a016fad23faa50c.
+Checksum SHA512 is f92520eb3332e9c9bf1bb2b720fd63057afa7cc1abe6cb3e7a6fa7bb86b1b58d9ba09121c5299e6904ac0a6e0078edf56a1060581ce94b65ae50a1a69123ccfd.
+Checksum RipeMD160 is 3778cdfa99e608c7cf14b45547e902a2320f04ff.
+Checksum BLAKE2B is e3a8a346f12960a96e28c73af61721aba4bd0aeebdb1264bca96b97812d4c77f000a15e7d828e7a0ab4251c2790b9d8e58cbac3299423d926e542f7d89cad3e8.
+Calcul des cheksums du fichier : .\binCLANGMW32\Debug\Lesson06.exe.
+Checksum CRC32  is e66aaa50.
+Checksum MD5 is 11f037a8fd2bed4e5faaa6f811560daf.
+Checksum SHA256 is b842e42cd2b3c8eaf68c840acf3e3d4550cfdcd14353d72c3c07840b52aa42b9.
+Checksum SHA512 is ea8e6798db62cad8644a45f4f53329caf006289bd972877266fbda0fec6067cd1e53f6244269f91ab2a81398b2377cbba5e77b110f5de1986085fca06c05d298.
+Checksum RipeMD160 is c1cfa15d0626d2f7d5a37aaef9c850c956ee8a34.
+Checksum BLAKE2B is 02d9a24fb37a10bfa0ba875b58f1653ffb650c650fa702f01c4d8c45392a36c30e6a3e55779fb82006e82c6e356965017d916c8a066c71f9bb31f843671c438c.
+Calcul des cheksums du fichier : .\binCLANGMW32\Release\Lesson06.exe.
+Checksum CRC32  is 29bb0b02.
+Checksum MD5 is aed9d7751b56067ff1e7d12e59745982.
+Checksum SHA256 is fcb45f29bfd0b4d820f16bbee3c4a31aa635ae6d3ef29f60bd9df943f709ca95.
+Checksum SHA512 is 287f92dd81065f990271b07b358bc631712175eee2cc3881661b3c1cbd6e360faef6090e5fe823be14c4c5a614f209b6c97f8d432dd6f95ce4394f908a851f37.
+Checksum RipeMD160 is 38b36832e94c2b57c40b2b09911ef946523b3264.
+Checksum BLAKE2B is 0a108be7749c7b8cef1d84c512dec423d7193a16a33d4ccecfbb10a12fece096e2a02ec86c7bb4acf04793fe023ab11dbcb4d18f160b63b51c44216de61c29ca.
+Calcul des cheksums du fichier : .\binCLANGMW64\Debug\Lesson06.exe.
+Checksum CRC32  is e52339a3.
+Checksum MD5 is c126480f05bdf4d55f26f3cf53bedfae.
+Checksum SHA256 is 340c4c3c87e30d2eafc9a2d91681bda738930d88a2607cb7ac06de3e25d3175f.
+Checksum SHA512 is ba785407308ddb0da59aa82379bc66bff3ec62046b51da7f6c6a287a5746af1afdc325a551233fcd50171b18fbf3663effe6cccb29a65901f0f11037954c56e7.
+Checksum RipeMD160 is a666991e57aa7c5896bc17ffcd2c67bbb45d3418.
+Checksum BLAKE2B is 21c57d26d4595656e6aa79cb7ae408e64837fa9851be734fd2901c0392caaa342d2d9a534ce54acd4b207fdf30efb945d77616d2ab93681c61d093d81b8b5afe.
+Calcul des cheksums du fichier : .\binCLANGMW64\Release\Lesson06.exe.
+Checksum CRC32  is d2169bd3.
+Checksum MD5 is bb0357f33f5e1d634c20a25cc6291e5c.
+Checksum SHA256 is 49bec94483f1fcac1003a7b0b3f370893b6c6b08202735702312fac722c41a0b.
+Checksum SHA512 is e6b3a0b59f6d2bda3af214dc9bac19c403c6ab34d7f489fe70898a4b83337c4cfb31b9e502de31ae69c3190f264cbd3369235b7ca25a3eb500c3e37a653404de.
+Checksum RipeMD160 is c0950e21d52f9a4155117880e0a763558b7da990.
+Checksum BLAKE2B is 2dcda30e46d94938c6ed90f1070f9841a805f09376a576849e0b4021a3e6c9757aafac9174bb784bc26da22872ee9ee21fe443c34e0485c1dee4e703fdd9613b.
+Calcul des cheksums du fichier : .\binCLANGW32\Debug\Lesson06.exe.
+Checksum CRC32  is 5d8bbfe3.
+Checksum MD5 is e45e3d2a5d3a2af60ef49b28c404176c.
+Checksum SHA256 is bb6ab3d0732fc1886d29160e06b519be46c6dfa81890912b09a2b10f116f2515.
+Checksum SHA512 is e5ad4564b9f11c3adcceff3a5aa7066a1c25b02930ea6e562f32f02a87caa4ebc8f95bd0fdbfc8c394845561ce3ed2620d9c28252ab9d953742c1d6866016802.
+Checksum RipeMD160 is 6e21b7c949251a6979868a02ca701f8fdc2488ee.
+Checksum BLAKE2B is c4b23e24073f40d76a4780e58a2863094e7c613a7705267b7fea0413d190635730fcdfb886d01fa52a51261aed9ad897e0afe94ae7d3b1b0e282048391b58524.
+Calcul des cheksums du fichier : .\binCLANGW32\Release\Lesson06.exe.
+Checksum CRC32  is 9da0ac04.
+Checksum MD5 is a1449024305e54c78d313a523705f175.
+Checksum SHA256 is 2e603cf61556a8fe4286135f028a419fd0270e077b3c4dccfea9e3edc9b395dd.
+Checksum SHA512 is 1a8b5304c31e946bf43f633256fcd1b51bd3af64841737d47354a18a2da785bb1e6871e6c031c708b8046741710b472c81f3d836a2f587fe8349d4c02233a912.
+Checksum RipeMD160 is b840cfb91eb36c82c50ce39e0e9c0f7044a1e306.
+Checksum BLAKE2B is 2d68fdf0d28cf1a6d2ecf6cc042af5bba5a88d036b88c2e1555059f20057be2fa43a347abd5efabe5a071e882df4b63fdfd493bf3b1cbc76800f9d4d1870001f.
+Calcul des cheksums du fichier : .\binCLANGW64\Debug\Lesson06.exe.
+Checksum CRC32  is 481adaed.
+Checksum MD5 is aa7dfaf93e4f436480f611e0f40d9bd9.
+Checksum SHA256 is a337aae59933ebcf921037121726843c33adfd31e490ec3f5b01c6e8a73a69e8.
+Checksum SHA512 is d37ee54dcd0fc07d4a152fc4e71a2b6fa27030c004250d0abc9eeef35f899a72a25f1d72bc85d823f614b8d92619e775d13d8737609eb4ac7a9e4229518541be.
+Checksum RipeMD160 is 7527ed3677fc1c2f05682d30387f568e59fe242f.
+Checksum BLAKE2B is 6024e269a664b121b5808c571c5d2857c66bb4305307621286f1e93102ffba62d0e770a4c77ec54de283015f2331fe45893be8a4847ca763bf6158c144871513.
+Calcul des cheksums du fichier : .\binCLANGW64\Release\Lesson06.exe.
+Checksum CRC32  is e66a1072.
+Checksum MD5 is 038808a18b81fbf4676b685193857269.
+Checksum SHA256 is 7d6b9667dd9bac559d1c98f1089d032f0f347d0f7cc6fc594e7af25e23d67674.
+Checksum SHA512 is 1c64a825f3cb431fb83d21c1bc0523aec65824145a08dbcf13e870648519238fda5e0b265b15a83410ce4bb3100166db4f83ba92d4ff1cfcf793c75cc33108b1.
+Checksum RipeMD160 is 7c6455260a29c2acead71c1c50309157132fb421.
+Checksum BLAKE2B is ec2ed1f326f877bec4a64f2056c98acfd1d2070ccd024acf40acce0a778d01f78184e85754d7a8eb0ad38ecc470a6213de0b1e815de26495da69d9e1efa80eb7.
+Calcul des cheksums du fichier : .\binCLANGX32\Debug\Lesson06.exe.
+Checksum CRC32  is 1b4d8f05.
+Checksum MD5 is ab31099d3f1bb5f3421510406f4392fe.
+Checksum SHA256 is 956dd7a46a4ef5be44fbb5e0bb1bfae47b4c49927764da3368a54b904823d783.
+Checksum SHA512 is af705d5e473c3f670eb7ad37c9ab5412ba3298ef01e7b1aa8c8165754ad569f0062723fe3fce44348cd67ab4f756cb7fc9b67f5b3e93e221b6d4abddcd95cc7f.
+Checksum RipeMD160 is 77f87a90e5fe3ceab5905f436aee8a1a3c060641.
+Checksum BLAKE2B is b6807e6e487208bd7bc12ce8bef319197a3472843828e56576620d168473f25cafe6c60ba558f89a1f1f4d88bf3d09e603601e229fd2ca2a5d8a336d3ad6edab.
+Calcul des cheksums du fichier : .\binCLANGX32\Release\Lesson06.exe.
+Checksum CRC32  is fe17f53d.
+Checksum MD5 is 27aa3f7e486e7383773609c9b11ef149.
+Checksum SHA256 is 6dd55aadb2bd6542e17926f4b1d8a7075d3b48f558ec5caa270076e6b103ca34.
+Checksum SHA512 is 48ffef5d6f74ebc6ab7cc6a0e0a4e64b95c6fb145da67b22ed473d122ee822e085af1f087ef6e85932a768ef95bba6c2a6b5b14904b65b0fb37b40ea6229efee.
+Checksum RipeMD160 is 5bd80166ab77e7369dc983ed9908e48ddfb616de.
+Checksum BLAKE2B is 6f7580189344dcb5d20d336d17bfea83201850cc42ccaff78e084c0531262376feecfa12672e90b5dc611deadae5d39b22532bd79714aacc9007f5a23e671389.
+Calcul des cheksums du fichier : .\binCLANGX64\Debug\Lesson06.exe.
+Checksum CRC32  is 40615901.
+Checksum MD5 is 86f36a8d0e9f20b3db464034f5359c20.
+Checksum SHA256 is abf73512e32d6c2c5120b6f207ec45a1f59db35f40e787676ed0fc3ff194cce3.
+Checksum SHA512 is 8a490157b5783dd320f6e193739d1774158ae81916183de187debf53e7c6025d10daf2716bc9e497e8f7978e9b26720431f4d5efbc1b37c088a3b645e972dd3e.
+Checksum RipeMD160 is a90d688d4451e0baf2d00c4bfbf941646b6994c8.
+Checksum BLAKE2B is 27096676c7976605a9a3aeb851c8a02121cdeb062c9da12fbb004375ec1423568ef594f7ff6266ee4067cfdbde52dc40000400d186bf7149a64588079e4ba559.
+Calcul des cheksums du fichier : .\binCLANGX64\Release\Lesson06.exe.
+Checksum CRC32  is d1e49890.
+Checksum MD5 is 366b503d55846ce7846c03f03da6e6f6.
+Checksum SHA256 is ffa5eba44e1fb10382bf2aeb2a637d6b2030968f0e7edd018d6ae1af47f6c42a.
+Checksum SHA512 is dbaeceed8bc6200085ef1da45e7dcf03f3c9971d5b96947198f709fe971a64ae0a173cfa74bcb4eddcb4a4f40a8ca835de0115b65d79f08ddee75ade18706115.
+Checksum RipeMD160 is c575e44dd2f53c58823f99379f0a2fa64552fde8.
+Checksum BLAKE2B is 27d7ccf454840052927e9f90fb9a0ecb5a921d53a5efe63c4cf3fdffe7f7f44e32c21b77594e5233fc596c241da026209b87d9eb518d2bc1e347dbb399ea58ce.
+Calcul des cheksums du fichier : .\binCYGWIN32\Debug\Lesson06.exe.
+Checksum CRC32  is 7d53da2d.
+Checksum MD5 is 5327acd0f2f010d079badba153f44c25.
+Checksum SHA256 is ab5c5ef33b120918f8cc600006c0333f48411b759990b4a680f51b398d6861d4.
+Checksum SHA512 is 10f7324fa270f726bebc1fc0a3479cd40c99b328bd59f42d803a1807a320f2b704396d7211c6a1509831b472e51bc34c6278c6b3ff6db38294e490b27389b41a.
+Checksum RipeMD160 is 298f7b0c6988c576aebf121e4c88a165b1b4c225.
+Checksum BLAKE2B is efc2855e6934470d59ebb542b83305b113ced3f1b87439b8f7284cf17777802fd2c2ffc4ee7a2e7cdaaa3abdd5ba76a785e8866ffdc26ed282ec190e6be6d450.
+Calcul des cheksums du fichier : .\binCYGWIN32\Release\Lesson06.exe.
+Checksum CRC32  is 621b2bc5.
+Checksum MD5 is fafc4c2d4ea4ecddb2e69a2e56c4c259.
+Checksum SHA256 is 98fdbab2fb91f7b497c672440569446405842d1a03bd84b07ed9b857a5abec3b.
+Checksum SHA512 is d7a5a0a6b92922abfba4090594f4ec9e6e908acd55dd12bb309693ed8dccbae8dff2f540de4adc1437c1a0eafb163d00386a1aa571eb10f725e6f52462e27caf.
+Checksum RipeMD160 is edd251d603a11f53836209f741f454eacbf0da58.
+Checksum BLAKE2B is 2f4b891c994030e7647d714fc3d7a9635f4e07a0ba17f7cba9c4c9542d73158c5df9c374c7d97b4b8157f386e59734513e7b06b2b6cd714abdecb16e196258ed.
+Calcul des cheksums du fichier : .\binCYGWIN64\Debug\Lesson06.exe.
+Checksum CRC32  is 9f08f811.
+Checksum MD5 is dc98de23ddcdec584f95ae50548dd99b.
+Checksum SHA256 is 828eefada81b4543ef779cc01dd58e979b393553004550fbf549d6b10d0f64ee.
+Checksum SHA512 is df3707898b4f0ce8c4e74595661ed3bbd83c15d0dbf24c900a4f21de68054520a6f89b1f344d5dcc4a10ea24d10078552b902ccd7db83d807b078a843c053328.
+Checksum RipeMD160 is 360b2fa101a13d0429fd235c2bd49821ff1d4fbf.
+Checksum BLAKE2B is 269aef3adeece29afb5baf6822d95a6a1a28168ec6c65c905ee867bed0042e555035f0250a0751a0ac07cc07161886c542bfe7ff62ddb82962bc4f3017be510d.
+Calcul des cheksums du fichier : .\binCYGWIN64\Release\Lesson06.exe.
+Checksum CRC32  is 4d7c8472.
+Checksum MD5 is 96ef17ffa229de95bf685567212fb181.
+Checksum SHA256 is 4456d09b0cf4b7e1d75748dd851d9fa5dfd178061bd0b4c1f49463505701fde5.
+Checksum SHA512 is e7b7423dc572f146097dbdd9c7784c83a97737fa8e457bcf9ed244634fbc5dbb31a802abaeea0c7a3fff3e1ecc2f28ff8bfd06279e0194506ab4e56392330b28.
+Checksum RipeMD160 is 2b6f276765c0db861fc1e85dba4d54e21177808d.
+Checksum BLAKE2B is 1e4bc6ef33f299b7570c4bf8969b8eb8d107a28e569b43147b12ffa8d0bf3157fc1bbeebbd26f6c9e8939c292957f6c6535a8f39e46ef65a2d5b00c36f12c764.
+Calcul des cheksums du fichier : .\binDevCpp\Debug\Lesson06.exe.
+Checksum CRC32  is fdeabccf.
+Checksum MD5 is 0e0413c1ce0ded5bcb8cb5a5dfe98fae.
+Checksum SHA256 is 0928b959305a7bd42c898404eec1764409b9d2939861d4ebdd0ee64bea9a0090.
+Checksum SHA512 is 5f6a9cec1b9ffca577eb66416dd2ca2cf28e670f3810edc7ec242ef7bbcb09d919d09090ec255a4e5d056796415b2a56ea441d4d040908245ded587d09dc4b6c.
+Checksum RipeMD160 is 4a93039bd29aeb42225fbd3700fd939b7f353d76.
+Checksum BLAKE2B is 11730af1f569dfd65a48b070d9381c15d885b0f95076e94377c4bf0bd2ae517d0c6b07c5cf064124085b4097f08c67be8aa38f29f15089613104f219682ffe91.
+Calcul des cheksums du fichier : .\binDevCpp\Release\Lesson06.exe.
+Checksum CRC32  is 1105c8dd.
+Checksum MD5 is 377933529c536b3b4f9e8f0d0f3decd7.
+Checksum SHA256 is c5c85cb693cc4d5025e9c1a526308af40a68ef5c1b6dc0b0d68557aafa664cbf.
+Checksum SHA512 is 8762f4ad6aea2b7a8ff97bca7b3dfe2749280619e9a1c504a4e37321fed48b6e61f5157afde9b3d845d4917d1812d547afcd809d6cdccece19f4f842ee86ed8f.
+Checksum RipeMD160 is c04445b30b9e8725b1e3d02a3f66229f62315709.
+Checksum BLAKE2B is 43167978c268417fd3cf5791434cc9714ae670331cf5aad608c2684c6443ba1a725e4acd4fd24f6c7e5c3c13f767cb3f611c2506503ea69a396537501178edc8.
+Calcul des cheksums du fichier : .\binDMC\Debug\Lesson06.exe.
+Checksum CRC32  is eda289c0.
+Checksum MD5 is 0ac6806518d869a64bfd0a7d96a53f88.
+Checksum SHA256 is 0087f61658365c866eee28bac44c4a814b5a15550905c84df33af7b107f8d913.
+Checksum SHA512 is 84fb3151e58574fda7c81bce10864ef6c3b20db719f2a16ef79aa2fe92d9722f1906126ab4ee513b2f01008b856363c6af81d5f1f1e8ed3078b148721d31792c.
+Checksum RipeMD160 is 9950731b233f20b2b00b831cd697106c0989ce8c.
+Checksum BLAKE2B is b30ab83113e564f669bd8c3e3d9d645cf6610f5b16686d2519af99a64ae1b1b0788ccb54d867c644ecd866163f2cc31bd96a0e65305ccf2d7517a658715ec3a3.
+Calcul des cheksums du fichier : .\binDMC\Release\Lesson06.exe.
+Checksum CRC32  is 79474478.
+Checksum MD5 is b4fa25bd24b8572fd4a2567329f6b9e2.
+Checksum SHA256 is bc2cea3685704299aa98f3b211b6a00aaf16e4de20e1ea988a4b2a1ef09fe090.
+Checksum SHA512 is 4524ed7525a5ea388bde0ad7a7a4fb52b0b736dded123b55a9f83a867f0ff790b0959cca00dc86b39fece0619523023bdf037d1efffefae877140780722de53d.
+Checksum RipeMD160 is 34393243d15b6e9f69742a03e5f1cbaaef92ee48.
+Checksum BLAKE2B is bb174571ad5c9f6b00a5d353d4e00614b7edd6dbf351666f9a80100f066ca6696e340e5d2c084340edaadf98a16b4af2c9811530de541d937515256796d0bd9d.
+Calcul des cheksums du fichier : .\binlcc32\Debug\Lesson06.exe.
+Checksum CRC32  is f8d9457d.
+Checksum MD5 is f79fa17e5c1574222b46cbcde4a856e1.
+Checksum SHA256 is 3f7872ef1b1e544173d1e6130077c07436dd9c437908f4f45532441e40a0cbe0.
+Checksum SHA512 is 9aaffb2829c8fc6a4177c0766ca3b4469093cf4803af9ac913ba637a3807a28c9278ba8b7fdb0c3957518f0a70c48701a3433548a1f847b325873f3b17266662.
+Checksum RipeMD160 is 1370fb237bfa8902a14e9adb9bd6294b2eef2271.
+Checksum BLAKE2B is 8936fc6ed41898d62560fb088cc8226d9d47fe62ad12fa7eeb44165582c944b3f3b487ee58eb0df82df0290a5797ef38cae0e46fa90c3e70e3f2e98666a3a936.
+Calcul des cheksums du fichier : .\binlcc32\Release\Lesson06.exe.
+Checksum CRC32  is beaed411.
+Checksum MD5 is d757919c9979f697c694b1ae2c790dc8.
+Checksum SHA256 is 4689b5a1beec814adce7f2b038d9276f987b5a8c82702c89f7f3e9817a7e660f.
+Checksum SHA512 is 82a6f4e062a88e24beb480a84347ca680b0504745df9e3f6af1f2feb6d97e2b37fa17514287b6e6e250d79b948e84bfc9d26846781fe829affcd4b4353a8fd7d.
+Checksum RipeMD160 is ce57798998e5153b992bdd7a307a6e699c1b6378.
+Checksum BLAKE2B is 623e2cb4233751cd62548e5c17c5962f5f97b5e111ff0e829b929e2411ae1eb86a44f12079c89628b73c391fb9ccad902ca2020204e43c78653d272e503527a4.
+Calcul des cheksums du fichier : .\binlcc64\Debug\Lesson06.exe.
+Checksum CRC32  is b892d8d4.
+Checksum MD5 is 2e83bb3e57713132fefe759d7e534c44.
+Checksum SHA256 is 8da9c519948cfebb4825a11331a2ab874a8156ff2ecd3be1d34f7457c9b8dd8d.
+Checksum SHA512 is 1f281376bdd3db58aa44698cdf82ee36fd03177bcd4b9d61d9c9f47ff8322ccd60e216986b75614a6ea2880aa57c91f0424effafaed289b46518923b389f214c.
+Checksum RipeMD160 is c36334bb257605b46c6e38f92d2cb31e3663315b.
+Checksum BLAKE2B is e1b0383b653f2d502e8fa3399eb1633f8d84d1f1b224f1016b917d3261edbf8db2b177bb397d19ff6c3ec71d1de58bb62251d924a274228aaa511b87db7283d8.
+Calcul des cheksums du fichier : .\binlcc64\Release\Lesson06.exe.
+Checksum CRC32  is 71a9174c.
+Checksum MD5 is fb315ac084f185cb2718902237a7f54a.
+Checksum SHA256 is fc9b191e2fa4032be57c5a2b3fd51a57a6e2c4fb5dc7dc491c8be63eab62d99f.
+Checksum SHA512 is d1310da6ce4a081402d7cb70396d231a3463e0ff82956d627dded2c3dbbe14bd9ef9a7a2f137b590727a182a971347d5acec180593c54c544b0339756fecf8f4.
+Checksum RipeMD160 is bfd828b4582453fc1accc10015a73d1158f0fdfd.
+Checksum BLAKE2B is c91bd71456bd7bc6d859e2c90d99487a4e420658618479e64c804b4cdf3c382d5f37ac9e936621b1208a8a59d72f5995db7fe320240b7ae82c833f5656363117.
+Calcul des cheksums du fichier : .\binMingw32of\Debug\Lesson06.exe.
+Checksum CRC32  is 7493790.
+Checksum MD5 is f32b78577f0c9e5bed336296f52e2c0d.
+Checksum SHA256 is 139455685d4ed51f1cb0b8abb4f9e741b710b40c4c6941d1bdf7c3b9d47e2ea9.
+Checksum SHA512 is d144cb88abce3428fdbabd5468002c7b09a8ad3dda514769368b54837db044d30dd9b2eef6339c57c9e6f450c8d573aa3e67d37744e867d636f333939931d8d5.
+Checksum RipeMD160 is b629208578239f9fec5b9020bbfc98192af0824b.
+Checksum BLAKE2B is ee8dd8609694a3b86838e90157fd5e15be1c6bd937e179b5dea5fce4e897d6c348b9b3f92c4ff25da7a9605feeff0de011071835490a5ce760e35ed1101ea6d0.
+Calcul des cheksums du fichier : .\binMingw32of\Release\Lesson06.exe.
+Checksum CRC32  is cf7acaab.
+Checksum MD5 is e420957a3402178bc177fa9a68e9e0dd.
+Checksum SHA256 is 91e60912f80ce7048ca51bdddf027fd71d05dff14ec69776457e7d35bc65dc98.
+Checksum SHA512 is 63541cb069e22c0b1ae09c1c62507ee3dbc3b1208575b758259053e949f80a3e6d2a56013069cd31395bc3177adb71c60cbf61edf75b8566016eaf43e5d95ae2.
+Checksum RipeMD160 is fbcc790553c161ef99b817512bdaed26b7909214.
+Checksum BLAKE2B is ddf92d48f10e31c4c72de9c549f06fcce692142a5fdb6a910ed3be6b0e184c99b93ee288dc7cab6bf5b7abfb53cbef75c658830c3eadaf8bca92e032a555a742.
+Calcul des cheksums du fichier : .\binMingw32wl\Debug\Lesson06.exe.
+Checksum CRC32  is 1754786e.
+Checksum MD5 is e78867e9386496e41a84985ca38f82be.
+Checksum SHA256 is 3d1cafc1b79f7618474031fb0251e45c8d28da07d96f9c808981e98002f96160.
+Checksum SHA512 is d929d5f7955165015cf1e71e4e3701c2baefef9326b6857d1fee4a4f87e72a86f24663a7ed41b782ab5551749b7264cef13f7b9fd3c653d959da1916cae628e0.
+Checksum RipeMD160 is 352cf3acde70c850d460a7973c33628a3b61deca.
+Checksum BLAKE2B is 09e2f91b5aaebd834281c2aad75fb730597b5fb29b024255eda88a1ca246d9c69b49427f0e21ddec35823ec77176fc5c88c3a0d4f6f948b8966d6ea0038c7036.
+Calcul des cheksums du fichier : .\binMingw32wl\Release\Lesson06.exe.
+Checksum CRC32  is 1183e975.
+Checksum MD5 is 53f84d94579a72f5f03066cadbf3bd64.
+Checksum SHA256 is ff9f201ad0518e586d0b25826ef44f83e8d1ab893b7c03dd74dd360f6ba3330b.
+Checksum SHA512 is 0f0fa9db539d72d6f8e483187f9785e6a0c76aa7d349b3023ee4ca30d5d3461505ac2f1f4811aa9c3bfa14f7b30a36e6adcdf1dee0fbffff4a74935f11765bc1.
+Checksum RipeMD160 is 0b8ed1602c9b1dd0bdc5c8fcb40923cdfb6c7090.
+Checksum BLAKE2B is f15941fb9263e4f1a2cbcd48fcaf3378efc50c76e61e4af8233a7ff3ef894840247f5fb6c470582a93c3884180b48da8b21b80cfb0ce4a49a4de631efb99c1ba.
+Calcul des cheksums du fichier : .\binMingw64wl\Debug\Lesson06.exe.
+Checksum CRC32  is bc13eb0c.
+Checksum MD5 is c1f1d3928d03bd48eb146b7f093358b9.
+Checksum SHA256 is 794adc74cad01431eb7cc91dee4bbb0d8ac3651a73ab26ab743a6e21cf0be660.
+Checksum SHA512 is bf55f188cde260b5d4102163ad4475e03c39facee469da2d1ccc2bced1453fba70f1d859b432be5afc35684f5f1531c8dfd35bdc37762154d96f43d8446f33be.
+Checksum RipeMD160 is a04fce35767b56a848380e3925f583652c86a8f9.
+Checksum BLAKE2B is e995ac81fc38e12ffd381284aa0c9e5e3bf1e5ad1c7f01a5e22f7b06141ea9f35f6a1f87907ae43d0004d17e8b47926fd6e0fc118b9a3801c82ec9489923ab02.
+Calcul des cheksums du fichier : .\binMingw64wl\Release\Lesson06.exe.
+Checksum CRC32  is 64d02ba8.
+Checksum MD5 is ff025467ad32495add658b6307141b12.
+Checksum SHA256 is e27d6ff24de95111c1c05958289e65e245015aa82719ebb17a91ab89da6e0e08.
+Checksum SHA512 is b09ec3bef77f1f0a40f8c0410db882124ef3885e4dce6f12173185e77ba2a1ee177e09fdf2e507a587a424ec98c126903e675d57d327d50562308524c367302b.
+Checksum RipeMD160 is 55ed1715f8cda72eff11c03e238b1f10bd4d3c30.
+Checksum BLAKE2B is 7a958ec3522dc839b92feaa44990b93cb006500b2a9e324fccc7d0470f02fd7f3b724c8fe375b007f3d07c32ab95ce9bfca3a5600fcca04e93e3d3b91f4e6207.
+Calcul des cheksums du fichier : .\binMingw64CB\Debug\Lesson06.exe.
+Checksum CRC32  is bed30b1a.
+Checksum MD5 is 15c94f37e3b3ce824b984183dcefdfe8.
+Checksum SHA256 is 32fe7df7bbf45a0827fcfb57432103521d091e5b89275d35ef5f182cc9f3c64c.
+Checksum SHA512 is 2ec5cd1811c0dc04d30587ee50ce782dc94c50ad825a4de5c22e53e1e44460972e02858117af9b9b8bff640416f19f41d456c190aa95b525c593b2d38c5c76af.
+Checksum RipeMD160 is 2e3d6e7bc7749f1b9f331452d5cbf23c25cea227.
+Checksum BLAKE2B is dea565241abc1715057104aeb1c32b980d412ef8f94506a2390dcb6016c1b2c4313bdf7d00c2adc06bfa0679d2442d5a5fa637dc16c5c2ba0ab20d12a33d5f54.
+Calcul des cheksums du fichier : .\binMingw64CB\Release\Lesson06.exe.
+Checksum CRC32  is ee3f6484.
+Checksum MD5 is e82dd67a4a9fc2b88d3e4b86efd99750.
+Checksum SHA256 is b7a38b2af787b875b460f03dd5d5db99850bdbe7681065903bff0e0d9283473b.
+Checksum SHA512 is d06d6822ffef386462090f68021c11527ed994a54f7ff3eba04836107515392d0f50f3a96ffccf143ef57e6eeb190db7cfe6380b34d239dce3255003e1e8685d.
+Checksum RipeMD160 is 71f92da1e007e5a4f3d59adcd6bfd7bbc5503441.
+Checksum BLAKE2B is 612e057fee55cf2888a6fa60c33fe6943dbc38a40bd74ea470fed79adad75e04e319274c19636c261b9985a73ed7e6d057a116e4c22f95f3eff862feb92471eb.
+Calcul des cheksums du fichier : .\binMSYS2W32\Debug\Lesson06.exe.
+Checksum CRC32  is 939d6d3e.
+Checksum MD5 is 0cee1ff089cb396da35802c2a0fe40bc.
+Checksum SHA256 is d492f0f4ac925f5d605d66b663a3dc4c895562cdc0348a8d772ad07fbca0ab0b.
+Checksum SHA512 is 37e4f28a600c203bf2bc0f75a3e76ea4a896092a27b1d0475e74dd4b2d2b63cc64ac6315596cc4d171e80d8c714c288bd8acd33fd1a54f7e5ad824ce92430f28.
+Checksum RipeMD160 is 1d4e17fbbecffca2143a0114283c45de654ab8c2.
+Checksum BLAKE2B is 665c8a69deda60c16e6efcc7da57b837cfab600821c48316df5ce20249f39a5bf0d5b32617d665ec028dd6a05e0ff49f6481ce1d61c9a89b9f376882ce870451.
+Calcul des cheksums du fichier : .\binMSYS2W32\Release\Lesson06.exe.
+Checksum CRC32  is f4ff0876.
+Checksum MD5 is b50f17026c89312697935e5555bd9f3c.
+Checksum SHA256 is ff553e2efa648d47409ef9c1579fcb51a082e258cb08f06b0a69f0da6b4dfd0b.
+Checksum SHA512 is ded6cbe1efabfba99f52a2217d82c809ceceb6000d09c02c730a8d02178f141a35a57d33c3ed0831a15bef1daa41310d10df1d17d25f00097afe9b674af83623.
+Checksum RipeMD160 is 57becfcd35451a255edeaa7f3b2b7b94a07a4d89.
+Checksum BLAKE2B is 8086977b58690c05ae7c5ae317f4af42878166434e8e3b633f19f5560663086981471e73a0be69f6c7804ff41929a25f645f88ee9758e088d150c7261c8dc137.
+Calcul des cheksums du fichier : .\binMSYS2W64\Debug\Lesson06.exe.
+Checksum CRC32  is ca6c2349.
+Checksum MD5 is 3329779e00217c3a16ab685cf4378a9b.
+Checksum SHA256 is d0c45f37805107b7155286a010c0030d304dee34f868bd09aeb573bd854cf872.
+Checksum SHA512 is c5eaf6375b55d059567eef98a4e7fff085e4956873924196f11b698fc5c887356991521e17df0b673d27c7590b93c525dc39e8d67d211846b8722a1e1e72f517.
+Checksum RipeMD160 is 19936710910c3b4ea9f8929095324ddd721b0763.
+Checksum BLAKE2B is 276f86874dc237e906d21d300cb81edb38da916212048170c5216a2791c12e436a0097e0d3f0c1e8499817f65dd5b52e5a355f77f3bafa7281a5f9f91d69b1c1.
+Calcul des cheksums du fichier : .\binMSYS2W64\Release\Lesson06.exe.
+Checksum CRC32  is 400d7657.
+Checksum MD5 is f8079e78dcca36fcc196121139248e80.
+Checksum SHA256 is c28d0346fad1f0224e9a536338e1e1b4d612633a52a46516b9803ce5af75f417.
+Checksum SHA512 is 0640497dea0418ae9a881d21afa69923c982218e997b6a94ca821ab7ccdd86038798de90133b51fc98439192479309e82cb2207e65bab3df85f67779daaf076c.
+Checksum RipeMD160 is f8fcf0888e96ae8b574d18e2b441a2283d9ac6ae.
+Checksum BLAKE2B is 38d4371d4d514f9ce47a7a800c6049b73151d1d07cb0053b1ef84a14e2eb05ed05190905011ec9a341bca112d821f916bb32dc5c84386e974cd4f7e2c9e9abf7.
+Calcul des cheksums du fichier : .\binOW32\Debug\Lesson06.exe.
+Checksum CRC32  is e445d952.
+Checksum MD5 is 23ec99e1d9b8f4b8bb52aeb38f7eb4ff.
+Checksum SHA256 is 13cab6d11aa24edb024c5b6f95c1614379e60039e18fd2214d1308689ed781fb.
+Checksum SHA512 is 9dfdf08d9feb89cad99732bd61b65cf6a86282bec93b059c4033b28cccdafd77309da4dd81996aaa1ba7ec6d4d5af540b3b27f5533000c4b73cd7b21627d98b3.
+Checksum RipeMD160 is 4b4e259b4f7443f24c5f401647176ba4cb6eadbd.
+Checksum BLAKE2B is 0a0a4be4a6b94dcca04c2573064f393c2f1c3f938d0066d803dd9ef8edc28af8995b8c21350dfb199c11ff82ac0ea65af32a78683e0cb6780f261e0e81d1f741.
+Calcul des cheksums du fichier : .\binOW32\Release\Lesson06.exe.
+Checksum CRC32  is 81c01606.
+Checksum MD5 is 03f6449c132a29f905c3294b73a7e5d7.
+Checksum SHA256 is d8198afe739371e539554deb473a87ac7b2736be1e0689ef87ca62d840be094c.
+Checksum SHA512 is d8c17e8e83fc0f6f83c648665eff84d5d4d84ef6c6adc81298ef45908b4bcfe3a484f2e917c08bd39af26e00d147e0769d4e1e57bb8a91415fbb79b24c27cd4b.
+Checksum RipeMD160 is b57fecc51bc75491939120bb05c9d8fca55a4e39.
+Checksum BLAKE2B is 13e5acca0d5c0b3447c251375fe5a17f719443ad58fce93722f1dc0276819604a303d4510adba3132a8baa73807de6c19ebec98717c1ae81ff21b5d42cb8b0a7.
+Calcul des cheksums du fichier : .\binOW64\Debug\Lesson06.exe.
+Checksum CRC32  is 1768a7d4.
+Checksum MD5 is 8f093071b6a562a149fa08a006a520f1.
+Checksum SHA256 is ae617650d9086ee481d63d485ec2ec0d62d73e75e4c96ce48b5e5bfafe32e47c.
+Checksum SHA512 is 607dad089f2869ffde606ec2315b3e0b4db5d2964709c51e51dede9ad4a48a921456b6143ed71746686fb061e575c7002be821bafb22e5b9f58b0488cb4e73be.
+Checksum RipeMD160 is d9632a7658bad932492b97758bad26d7335fa93a.
+Checksum BLAKE2B is ebd01a120d34204760863971096943a1fc047d0f594851fdad4136f661f88e1a3e5f14663d3772a2be9f28d2976f0a1d52e5642d9a28ef79d9bd2f5408261bcf.
+Calcul des cheksums du fichier : .\binOW64\Release\Lesson06.exe.
+Checksum CRC32  is b9e6f628.
+Checksum MD5 is 7eeb55c63fa3fe96bf23985e1c4db00c.
+Checksum SHA256 is 18c091ab1b3b0e2baa0dc4d20e4d0497c6d8bbd40841d1f4fdaf69ac4de5301c.
+Checksum SHA512 is e9979176c9450228e31ca97dcee7953d57534db9069c4c20ad329dea8df2f274cae5c8eed64dd5ea702093a5b560d35b6feb4dc04e70f7d87633ba9374a2c4e2.
+Checksum RipeMD160 is 6be057aa47e4be1c31b9115297d63521c2cc8cd3.
+Checksum BLAKE2B is 16e8faddb4cf015cb4d548e0d07b5a3978e2f7fe6d9749903d1d066625ea9d7b86376da0e24ef8592127b57b7a817d5566909e718a4de77ae107bec35b965eb2.
+Calcul des cheksums du fichier : .\binPELLESC32\Debug\Lesson06.exe.
+Checksum CRC32  is 16c6764f.
+Checksum MD5 is fbdab8c2257b35163097238024a7de7e.
+Checksum SHA256 is 10214c807033a543a3958245909d31aabb3ad6b9d6494f695d1e2062d28709bc.
+Checksum SHA512 is dbeaa500a46aee0c19e297eb1c84f7056b86e53250cbeba0dff141cf9549b140a37e888b5d42d7a8cbf886c9680b2fa0f0cd849afb9fd2112ac23a86f473384b.
+Checksum RipeMD160 is dcdc93a0bfda3532406d1ffa56859d55eaee3ba2.
+Checksum BLAKE2B is 38aef813f7792d6dea667979c2dbd1df6b7b293be5e1bc1d12376f0baae1c26ac1fbd7583f7f92010e34bb7114b66f2d42811c7340901f8a65904d7d97cc4bd4.
+Calcul des cheksums du fichier : .\binPELLESC32\Release\Lesson06.exe.
+Checksum CRC32  is 6215e054.
+Checksum MD5 is 1298d822db47bb155ef39affd95cb486.
+Checksum SHA256 is c10ac6cf1d56ae24d8a869ad7b761370dea7bf3060d6c942726a899612adb1ea.
+Checksum SHA512 is 1ca6966cfc3a046385107b1ca3782bdd41951f364fe7dc39df68d6f737f3e9972e92e8f2ef833e42717257f6f0cea06d80d8098a324d3373fbf070c979082f8a.
+Checksum RipeMD160 is 5efb9937d5ccecf4236f3627c8cdd343438115db.
+Checksum BLAKE2B is 482ea09bf5af7210227e845469d400a1ed93a552280c9e0cfee6906a69fbc25649f896cd73dc1483d36ea37c2b31a59c0970cc95188c8d274c0dd0bb63e3b880.
+Calcul des cheksums du fichier : .\binPELLESC64\Debug\Lesson06.exe.
+Checksum CRC32  is bd7be200.
+Checksum MD5 is 0cda2db3a3e308d8a6df3481c347935d.
+Checksum SHA256 is 51ab08ae693cfa12d44f5a14de073092d6e2f1c1b94c187923f1f5fddcf1a62d.
+Checksum SHA512 is a5458fdbfc4f8401b3bad637ea6506d271b00cebbf711de54268c3760b60817e500fe90d3ac5dfe499f6f9975922199f09d6984b31621cfcbaeb814f84515695.
+Checksum RipeMD160 is fb740b45a180feb12c2cc99327217516d4014535.
+Checksum BLAKE2B is 562d78f8af54ea32961bcf6512dad9df1ebf55b95fccf2dbc395ca46e84d74248ca9f5b716aa005f7ce7bb524254d766269fcd75541bcb86b3efb3020cb5ded7.
+Calcul des cheksums du fichier : .\binPELLESC64\Release\Lesson06.exe.
+Checksum CRC32  is f477d265.
+Checksum MD5 is c911516e4aa35beec7aad714f51b0e5e.
+Checksum SHA256 is feb7b6fe68339d021401bf065049b15e5e7fb45e64e5ce800f1244a30ae565b6.
+Checksum SHA512 is 705002b5e009d992be719a472906c28f025d64660c524881f15d84871c72d8d05cadd1d162a1653c3e6d44dc788b9aab9b491afe7c90a63b3316a7af4dbb7b1a.
+Checksum RipeMD160 is 2f63402bdd1cebeb507a24bfcd0b7600668e0703.
+Checksum BLAKE2B is 0a98505e52efab0a802861e6cfd3c06101f40171acdafadf84f20d3edc96e4dd8914b9b5501cd310c62382fef0959aad2e3486cc4ab32994f7ee358629b5f252.
+Calcul des cheksums du fichier : .\binTDMW32\Debug\Lesson06.exe.
+Checksum CRC32  is ce345c15.
+Checksum MD5 is 81cf7b161af0c32e6f031453aa341d70.
+Checksum SHA256 is c35b6868a3459b49b8617f2ef9a28e229e99d93e548af1521138a1786f75ed9b.
+Checksum SHA512 is 3359026a7e3a0df4cd70fc71d02c739aa4ebf3fb552ba1b2b244c20596a1bbcb440e91265877d736b84eb279602010edc9b7c9210a8be8684a5ef47f86e2e41b.
+Checksum RipeMD160 is 20b8f92bf23f7e7600d16de521989cf2c6fe538c.
+Checksum BLAKE2B is 0ce690bb8949f20d62f564d4d395e071d218e7df3e53a8669843940ac159a599db07eca7bc08706f0b0296407a792e303493eb021563dfdd362f494609a40914.
+Calcul des cheksums du fichier : .\binTDMW32\Release\Lesson06.exe.
+Checksum CRC32  is d6143c85.
+Checksum MD5 is f407c816fed42b17993a06db2feb9cb1.
+Checksum SHA256 is 598f2613302c9f71138ab993934084a08fe77ac71b968e28030cfff814ff1a55.
+Checksum SHA512 is bd05254edf28f5bcc743167d4bb3bd5848c348eb9c77c63a34da17d701f4c5bd6453d786e8c17c9ef3edbf20f5692a2f30b4ce8ceccf6f0398a5e153137d2ee1.
+Checksum RipeMD160 is 1732f7b1e28cdf099dc98eb8db1da0abf0a2632f.
+Checksum BLAKE2B is 47eaab32231049ca8daf9f2ac0ea9cf6749e84705b21b9826f4d0cffd4e6031dce6ce950de50774715ea0230171565b0396422e2b6174dcbc3ce6ed2626a7853.
+Calcul des cheksums du fichier : .\binTDMW64\Debug\Lesson06.exe.
+Checksum CRC32  is 850011d5.
+Checksum MD5 is 1aa8782e99175e0199043125e34058f5.
+Checksum SHA256 is f32c4fa139651aee61ef941fcfc979c2cdf74bd9616069bddb7085a794717758.
+Checksum SHA512 is 4f43206c563f9dd8adc0a511831a9b0a6f486762d8a4c0304d873b0ea70d9917421205c22d314c4350577ae7a4c17b12e0339b4ff8f7c27aff7ac71108285bb4.
+Checksum RipeMD160 is d484565348a654e11be71010370534fd0b3fdbd5.
+Checksum BLAKE2B is 0265f7d825ae8610541702ea7601968948031880e767bff958af09a5381e3431303d8c75d207a5902bbf159eda6361db363214346324ba06ba2665f0a92e0d8c.
+Calcul des cheksums du fichier : .\binTDMW64\Release\Lesson06.exe.
+Checksum CRC32  is 54f17863.
+Checksum MD5 is afbb558902d06d6dd5da35d04a1c96df.
+Checksum SHA256 is d41c654c7fabbdd1d7a709ba797d6f740f98b5d72d689e9d2908fe9d4fef7a09.
+Checksum SHA512 is 7cdbbc3082bb0f0d3012c6b65e8a368c9d4c29136c6b25e39ae2486dbdc328777d2db8cb1e1be0e90613715bfef762c5e178f78d6ff425294e47b3cb0b96855e.
+Checksum RipeMD160 is 5e5c4cd4adcfa16de622b9efd75d1d90884c6c33.
+Checksum BLAKE2B is 5b6238aee7044fecb196cae22df6e3c5d667886eb691caab572085daba45daa45108077f891c1b8f20eecc88d2c64f0bc1a41986bddba5250498f866637ba629.
+Calcul des cheksums du fichier : .\binVS2022X32\Debug\Lesson06.exe.
+Checksum CRC32  is 8cf00133.
+Checksum MD5 is 41b90b6ef0ba4cfe34b87a47bdcf5d5c.
+Checksum SHA256 is ecbf1f075824a9f86073844fb0734a6aa8b5e13589c2cbf526b24857c8d60a30.
+Checksum SHA512 is 582524f49e4338df661dfba3855e4a8d5979aea2e3870c7a4cccbc2f6bf2ebc14dd25fdee9249a8370779233f07dcf5e993a5429350325ef4a8df8db097b3149.
+Checksum RipeMD160 is 9daf9136ab1acc29f3c299490f95512db2964530.
+Checksum BLAKE2B is 9e16106e92e00c41199be25843622c34073747b0ed525ad10ab3464847db803653e4d374a892bfb8c094327abd60459555f5c420344665d1aa484d7c8e25c9b9.
+Calcul des cheksums du fichier : .\binVS2022X32\Release\Lesson06.exe.
+Checksum CRC32  is cb0fc5d.
+Checksum MD5 is f4607c9a32dc638ff2d33009a1f39591.
+Checksum SHA256 is ac3f83d885fb2630959a6db8544df0bcaf232cd42c4823616205bc5f6f86e4a1.
+Checksum SHA512 is 29d44a3289367e376ae91a6d923b7b259a5aba3ba1d8de141d9ec167772160412218548f4359cb500cba43a87e3e4dbcd0d184871162f29d27226235002035a2.
+Checksum RipeMD160 is c73ea2ecddba56fe6ecbbc4cbace1a89e8da9f51.
+Checksum BLAKE2B is 267addb2d8cc63b5c2debc3666bfd7764c497c79b7680d9ee84f14bed2bbb5ee45e6dcbfe5234e1df76f1326abbd0203ce3bdab8a8d7a4dc7031605f207a7bbe.
+Calcul des cheksums du fichier : .\binVS2022X64\Debug\Lesson06.exe.
+Checksum CRC32  is d60cd2ca.
+Checksum MD5 is 721629caea58726852d56d17690818df.
+Checksum SHA256 is 8a679b657e5a76503204afd9c2500f95b9a6ab0145b04f70ceb4eab8ffb7262d.
+Checksum SHA512 is 24e5fc665faa301d0c654623bbf85aba72b483d02f465d24034ef9f63f63cbe8f05bd36a713387d62c5a33e37524c693fea0cebe1cc919692b891afdf11e2385.
+Checksum RipeMD160 is bc5c2f092224cd2f9a7ab91e1ef23f435702d18e.
+Checksum BLAKE2B is edd880a2c671109f9630fcf742c2e0cb50f7ee108e004dddabd4855acffdb2e8fbaf5e5af15b825e652785bdec2a9c617d90861e2ff318bb77b4331357e8f59b.
+Calcul des cheksums du fichier : .\binVS2022X64\Release\Lesson06.exe.
+Checksum CRC32  is f5484ba9.
+Checksum MD5 is 7156cd72ed405f68847476c8f96dca05.
+Checksum SHA256 is a1b64ab83f2acda610b0496ba5fcb015142df7bb50200783c0dfd4aca6fa8662.
+Checksum SHA512 is 32ecd39515aa02c898659fe9ccac7528eff527f4a8cface68664efd053ee0f2ee2a71e498ef2a81299dbbd0b90509dc823a6a2a1daa5f39ff4d8448dc2c7532d.
+Checksum RipeMD160 is 6877f4f11104ce7743dee7bfd9a1042ff9289f28.
+Checksum BLAKE2B is 3e104ad2e0211d40aaa86f9f3689fdf980c36335f8c5c981975e42da65c271faa826f06f8e212cac1197cec3d984609770a29234a8a4ff11e8a3b998a66897e9.
+
+C:\src\OpenGL\NeHe_Lesson06-master>set mydate=15/09/2022 
+
+C:\src\OpenGL\NeHe_Lesson06-master>set mytime=17:25:46,39 
+
+C:\src\OpenGL\NeHe_Lesson06-master>set DAY=15 
+
+C:\src\OpenGL\NeHe_Lesson06-master>set MONTH=09 
+
+C:\src\OpenGL\NeHe_Lesson06-master>set YEAR=2022 
+
+C:\src\OpenGL\NeHe_Lesson06-master>echo Current time is 15/09/2022:17:25:46,39 
+Current time is 15/09/2022:17:25:46,39
+
+C:\src\OpenGL\NeHe_Lesson06-master>echo Jour : 15 
+Jour : 15
+
+C:\src\OpenGL\NeHe_Lesson06-master>echo Mois : 09 
+Mois : 09
+
+C:\src\OpenGL\NeHe_Lesson06-master>echo Année : 2022 
+Année : 2022
+
+C:\src\OpenGL\NeHe_Lesson06-master>"C:\Program Files\7-Zip\7z" a Lesson06_2022-09-15_src.7z src\*.* res\*.* data\*.* build.cmake\* *.bat *.txt *.html *.md doxygen\*.* *.cbp *.workspace -x!*.bak -p"Lesson06_tde" 
+
+7-Zip 22.01 (x64) : Copyright (c) 1999-2022 Igor Pavlov : 2022-07-15
+
+Scanning the drive:
+464 folders, 1605 files, 19491453 bytes (19 MiB)
+
+Creating archive: Lesson06_2022-09-15_src.7z
+
+Add new data to archive: 464 folders, 1605 files, 19491453 bytes (19 MiB)
+
+
+Files read from disk: 1576
+Archive size: 1104088 bytes (1079 KiB)
+
+WARNINGS for files:
+
+generate_all_with_cmake.txt : Le processus ne peut pas acc‚der au fichier car ce fichier est utilis‚ par un autre processus.
+----------------
+WARNING: Cannot open 1 file
+
+C:\src\OpenGL\NeHe_Lesson06-master>"C:\Program Files\7-Zip\7z" a -ttar Lesson06-2022-09_15_all.tar * -x!*.7z x!*.bak 
+
+7-Zip 22.01 (x64) : Copyright (c) 1999-2022 Igor Pavlov : 2022-07-15
+
+Scanning the drive:
+721 folders, 2476 files, 39715429 bytes (38 MiB)
+
+Creating archive: Lesson06-2022-09_15_all.tar
+
+Add new data to archive: 721 folders, 2476 files, 39715429 bytes (38 MiB)
+
+
+Files read from disk: 3196
+Archive size: 42008064 bytes (41 MiB)
+
+WARNINGS for files:
+
+generate_all_with_cmake.txt : Le processus ne peut pas acc‚der au fichier car ce fichier est utilis‚ par un autre processus.
+----------------
+WARNING: Cannot open 1 file
+
+C:\src\OpenGL\NeHe_Lesson06-master>"C:\Program Files\7-Zip\7z" a -tgzip Lesson06_2022-09-15_all.tgz *.tar 
+
+7-Zip 22.01 (x64) : Copyright (c) 1999-2022 Igor Pavlov : 2022-07-15
+
+Scanning the drive:
+1 file, 42008064 bytes (41 MiB)
+
+Creating archive: Lesson06_2022-09-15_all.tgz
+
+Add new data to archive: 1 file, 42008064 bytes (41 MiB)
+
+
+Files read from disk: 1
+Archive size: 9368086 bytes (9149 KiB)
+Everything is Ok
+
+C:\src\OpenGL\NeHe_Lesson06-master>del /Q *.tar 
+
+C:\src\OpenGL\NeHe_Lesson06-master>GOTO FIN 
+
+C:\src\OpenGL\NeHe_Lesson06-master>cd C:\src\tools 
