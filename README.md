@@ -1,7 +1,7 @@
 # Lesson06
 Lesson06 OpenGL (from NeHe)
 
-Vous trouverez dans le sommaire ci-dessous un bon nombre d'explications sur cette application d'usage d'OpenGL et la façon de la reconstruire (ou l'améliorer
+Vous trouverez dans le sommaire ci-dessous un bon nombre d'explications sur cette application d'usage d'OpenGL et la façon de la reconstruire (ou de l'améliorer
  à votre convenance).
 Cet exemple est déjà d'un bon niveau sur le "texture mapping" d'OpenGL, et le résultat est, je trouve, bien abouti, sur ce cube en rotation.
 Certes, on est encore loin d'un design complet de "jeu", mais nous sommes toujours dans les prémisses d'OpenGL. Attendez la suite ...
