@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<book xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_index" xml:lang="fr">
+    <info>
+    <title>Lesson06 (from NeHE)</title>
+    </info>
+<chapter>
+    <title>Documentation des fichiers</title>
+    <xi:include href="_lesson06_8c.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="resource_8h.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="resource_8h_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+</chapter>
+<index/>
+</book>

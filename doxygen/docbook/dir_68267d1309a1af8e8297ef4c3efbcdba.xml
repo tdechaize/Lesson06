@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_68267d1309a1af8e8297ef4c3efbcdba" xml:lang="fr">
+<title>RÃ©pertoire de rÃ©fÃ©rence de src</title>
+<indexterm><primary>RÃ©pertoire de rÃ©fÃ©rence de src</primary></indexterm>
+<simplesect>
+    <title>Fichiers    </title>
+        <itemizedlist>
+            <listitem><para>fichier <link linkend="__lesson06_8c">Lesson06.c</link></para>
+
+<para>Ouvre une simple fenêtre Windows et dessine un cube avec l&apos;utilisation d&apos;un mapping de texture (NEHE GameDev) stocké dans le répertoire ./data. </para>
+</listitem>
+            <listitem><para>fichier <link linkend="_resource_8h">resource.h</link></para>
+
+<para>Les définitions utilisées par le programme et les ressources. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

@@ -1,0 +1,25 @@
+var _lesson06_8c =
+[
+    [ "WIN32_LEAN_AND_MEAN", "_lesson06_8c.html#ac7bef5d85e3dcd73eef56ad39ffc84a9", null ],
+    [ "CreateGLWindow", "_lesson06_8c.html#ae5f043c9df9b9e5e0e26d567feeeb1bc", null ],
+    [ "DrawGLScene", "_lesson06_8c.html#a52061247bdaeb770e3a1d59eefaad972", null ],
+    [ "InitGL", "_lesson06_8c.html#aa4c387d3f1ebce6d57684b6a10c9b0ae", null ],
+    [ "KillGLWindow", "_lesson06_8c.html#af33a2273205c1491be5916d3091658e0", null ],
+    [ "LoadGLTextures", "_lesson06_8c.html#a8dd15539ba90ae3670aa0a9f889d2236", null ],
+    [ "NeHeLoadBitmap", "_lesson06_8c.html#ab297f3a05d02d1e923b2feb09384c321", null ],
+    [ "ReSizeGLScene", "_lesson06_8c.html#a87bb84d489df61ed7b0c002584fd984f", null ],
+    [ "WinMain", "_lesson06_8c.html#a661c2abc03926acfaeb93b4ae7db4943", null ],
+    [ "WndProc", "_lesson06_8c.html#ae749e989b362e19783c7af4a2bf46c95", null ],
+    [ "active", "_lesson06_8c.html#a22389371583c4b8843e06da43399d6d9", null ],
+    [ "fullscreen", "_lesson06_8c.html#ab15a33c0173f2c5b6ac806c55cf7f0ba", null ],
+    [ "hDC", "_lesson06_8c.html#a78f6446a0e13adc7b7b2f239112ac785", null ],
+    [ "hInstance", "_lesson06_8c.html#a74029128723095e7bf00a71d46af8b24", null ],
+    [ "hRC", "_lesson06_8c.html#a874963259c7cd998acfe6e187fbdb4c1", null ],
+    [ "hWnd", "_lesson06_8c.html#afec4341c234519e145bac6f0e5edaa51", null ],
+    [ "keys", "_lesson06_8c.html#a55a8351b704275ad12988864918abb2a", null ],
+    [ "texid", "_lesson06_8c.html#aade27af54c2c7c72b1a666ff247058ca", null ],
+    [ "texture", "_lesson06_8c.html#a8dbc8c0cec45367c7d19c7dfa3768fae", null ],
+    [ "xrot", "_lesson06_8c.html#a599f50b1636901ceee9b660ef480a49c", null ],
+    [ "yrot", "_lesson06_8c.html#a9549138cf4d209303566523d805d8525", null ],
+    [ "zrot", "_lesson06_8c.html#a0441705f3a5277b1381159b4a22807c4", null ]
+];

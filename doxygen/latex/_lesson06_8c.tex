@@ -1,0 +1,110 @@
+\hypertarget{_lesson06_8c}{}\doxysection{C\+:/src/\+Open\+GL/\+Ne\+He\+\_\+\+Lesson06-\/master/\+Lesson06.c File Reference}
+\label{_lesson06_8c}\index{C:/src/OpenGL/NeHe\_Lesson06-\/master/Lesson06.c@{C:/src/OpenGL/NeHe\_Lesson06-\/master/Lesson06.c}}
+
+
+Ouvre une simple fenêtre Windows et dessine un cube avec l\textquotesingle{}utilisation d\textquotesingle{}un mapping de texture (NEHE Game\+Dev) stocké dans le répertoire ./data.  
+
+
+{\ttfamily \#include $<$windows.\+h$>$}\newline
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$gl\textbackslash{}gl.\+h$>$}\newline
+{\ttfamily \#include $<$gl\textbackslash{}glu.\+h$>$}\newline
+{\ttfamily \#include $<$gl\textbackslash{}glext.\+h$>$}\newline
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{_lesson06_8c_ae749e989b362e19783c7af4a2bf46c95}\label{_lesson06_8c_ae749e989b362e19783c7af4a2bf46c95}} 
+LRESULT CALLBACK {\bfseries Wnd\+Proc} (HWND h\+Wnd, UINT u\+Msg, WPARAM w\+Param, LPARAM l\+Param)
+\item 
+\mbox{\Hypertarget{_lesson06_8c_ab297f3a05d02d1e923b2feb09384c321}\label{_lesson06_8c_ab297f3a05d02d1e923b2feb09384c321}} 
+bool {\bfseries Ne\+He\+Load\+Bitmap} (LPTSTR sz\+File\+Name, GLuint $\ast$texid)
+\item 
+\mbox{\Hypertarget{_lesson06_8c_a8dd15539ba90ae3670aa0a9f889d2236}\label{_lesson06_8c_a8dd15539ba90ae3670aa0a9f889d2236}} 
+int {\bfseries Load\+GLTextures} ()
+\item 
+\mbox{\Hypertarget{_lesson06_8c_a87bb84d489df61ed7b0c002584fd984f}\label{_lesson06_8c_a87bb84d489df61ed7b0c002584fd984f}} 
+GLvoid {\bfseries Re\+Size\+GLScene} (GLsizei width, GLsizei height)
+\item 
+\mbox{\Hypertarget{_lesson06_8c_aa4c387d3f1ebce6d57684b6a10c9b0ae}\label{_lesson06_8c_aa4c387d3f1ebce6d57684b6a10c9b0ae}} 
+int {\bfseries Init\+GL} (GLvoid)
+\item 
+\mbox{\Hypertarget{_lesson06_8c_a52061247bdaeb770e3a1d59eefaad972}\label{_lesson06_8c_a52061247bdaeb770e3a1d59eefaad972}} 
+int {\bfseries Draw\+GLScene} (GLvoid)
+\item 
+\mbox{\Hypertarget{_lesson06_8c_af33a2273205c1491be5916d3091658e0}\label{_lesson06_8c_af33a2273205c1491be5916d3091658e0}} 
+GLvoid {\bfseries Kill\+GLWindow} (GLvoid)
+\item 
+\mbox{\Hypertarget{_lesson06_8c_ae5f043c9df9b9e5e0e26d567feeeb1bc}\label{_lesson06_8c_ae5f043c9df9b9e5e0e26d567feeeb1bc}} 
+BOOL {\bfseries Create\+GLWindow} (char $\ast$title, int width, int height, int bits, BOOL fullscreenflag)
+\item 
+\mbox{\Hypertarget{_lesson06_8c_a661c2abc03926acfaeb93b4ae7db4943}\label{_lesson06_8c_a661c2abc03926acfaeb93b4ae7db4943}} 
+int WINAPI {\bfseries Win\+Main} (HINSTANCE h\+Instance, HINSTANCE h\+Prev\+Instance, LPSTR lp\+Cmd\+Line, int n\+Cmd\+Show)
+\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{_lesson06_8c_a78f6446a0e13adc7b7b2f239112ac785}\label{_lesson06_8c_a78f6446a0e13adc7b7b2f239112ac785}} 
+HDC {\bfseries h\+DC} =NULL
+\item 
+\mbox{\Hypertarget{_lesson06_8c_a874963259c7cd998acfe6e187fbdb4c1}\label{_lesson06_8c_a874963259c7cd998acfe6e187fbdb4c1}} 
+HGLRC {\bfseries h\+RC} =NULL
+\item 
+\mbox{\Hypertarget{_lesson06_8c_afec4341c234519e145bac6f0e5edaa51}\label{_lesson06_8c_afec4341c234519e145bac6f0e5edaa51}} 
+HWND {\bfseries h\+Wnd} =NULL
+\item 
+\mbox{\Hypertarget{_lesson06_8c_a74029128723095e7bf00a71d46af8b24}\label{_lesson06_8c_a74029128723095e7bf00a71d46af8b24}} 
+HINSTANCE {\bfseries h\+Instance}
+\item 
+\mbox{\Hypertarget{_lesson06_8c_a55a8351b704275ad12988864918abb2a}\label{_lesson06_8c_a55a8351b704275ad12988864918abb2a}} 
+BOOL {\bfseries keys} \mbox{[}256\mbox{]}
+\item 
+\mbox{\Hypertarget{_lesson06_8c_a22389371583c4b8843e06da43399d6d9}\label{_lesson06_8c_a22389371583c4b8843e06da43399d6d9}} 
+BOOL {\bfseries active} =TRUE
+\item 
+\mbox{\Hypertarget{_lesson06_8c_ab15a33c0173f2c5b6ac806c55cf7f0ba}\label{_lesson06_8c_ab15a33c0173f2c5b6ac806c55cf7f0ba}} 
+BOOL {\bfseries fullscreen} =TRUE
+\item 
+\mbox{\Hypertarget{_lesson06_8c_a599f50b1636901ceee9b660ef480a49c}\label{_lesson06_8c_a599f50b1636901ceee9b660ef480a49c}} 
+GLfloat {\bfseries xrot}
+\item 
+\mbox{\Hypertarget{_lesson06_8c_a9549138cf4d209303566523d805d8525}\label{_lesson06_8c_a9549138cf4d209303566523d805d8525}} 
+GLfloat {\bfseries yrot}
+\item 
+\mbox{\Hypertarget{_lesson06_8c_a0441705f3a5277b1381159b4a22807c4}\label{_lesson06_8c_a0441705f3a5277b1381159b4a22807c4}} 
+GLfloat {\bfseries zrot}
+\item 
+\mbox{\Hypertarget{_lesson06_8c_a8dbc8c0cec45367c7d19c7dfa3768fae}\label{_lesson06_8c_a8dbc8c0cec45367c7d19c7dfa3768fae}} 
+GLuint {\bfseries texture} \mbox{[}1\mbox{]}
+\item 
+\mbox{\Hypertarget{_lesson06_8c_aade27af54c2c7c72b1a666ff247058ca}\label{_lesson06_8c_aade27af54c2c7c72b1a666ff247058ca}} 
+GLuint {\bfseries texid} \mbox{[}1\mbox{]}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Ouvre une simple fenêtre Windows et dessine un cube avec l\textquotesingle{}utilisation d\textquotesingle{}un mapping de texture (NEHE Game\+Dev) stocké dans le répertoire ./data. 
+
+Comments manageable by Doxygen
+
+Modified smoothly by Thierry DECHAIZE
+
+Paradigm \+: obtain one source (only one !) compatible for multiple free C Compilers and provide for all users an development environment on Windows (64 bits compatible), the great Code\+::\+Blocks manager (version 20.\+03), and don\textquotesingle{}t use glaux.\+lib or glaux.\+dll.
+
+a) Mingw 32 and 64 bits \+: downloadable \href{http://sourceforge.net/projects/mingw/}{\texttt{ http\+://sourceforge.\+net/projects/mingw/}} b) Mingw 32 included in DEV-\/\+CPP \+: included in old IDE Dev-\/\+Cpp \href{http://sourceforge.net/projects/devcpp/}{\texttt{ http\+://sourceforge.\+net/projects/devcpp/}} c) Mingw 64 bits included in CB \+: included in package Code\+::\+Blocks (version 20.\+03) \href{http://sourceforge.net/projects/codeblocks/files/Binaries/12.11/Windows/}{\texttt{ http\+://sourceforge.\+net/projects/codeblocks/files/\+Binaries/12.\+11/\+Windows/}} d) Borland C \+: downloadable \href{http://edn.embarcadero.com/article/20633}{\texttt{ http\+://edn.\+embarcadero.\+com/article/20633}} e) Digital Mars Compiler C \+: version 8.\+57 downloadable \href{http://www.digitalmars.com}{\texttt{ http\+://www.\+digitalmars.\+com}} f) Open\+Watcom \+: version 1.\+9 downloadable \href{http://openwatcom.mirror.fr/}{\texttt{ http\+://openwatcom.\+mirror.\+fr/}} g) Lcc and Lcc64 \+: downloadable \href{http://www.cs.virginia.edu/~lcc-win32/}{\texttt{ http\+://www.\+cs.\+virginia.\+edu/$\sim$lcc-\/win32/}} h) Cygwin64 64 bits \+: downloadable \href{http://www.cygwin.com/install.html}{\texttt{ http\+://www.\+cygwin.\+com/install.\+html}} (setup\+\_\+x64.\+exe) i) Visual Studio 2019 32 bits + 64bits\+: community edition for free \href{http://www.microsoft.com/france/visual-studio/essayez/express.aspx}{\texttt{ http\+://www.\+microsoft.\+com/france/visual-\/studio/essayez/express.\+aspx}} j) TDM GCC 32 et 64 bits \+: version 9.\+2.\+0 downloadable on \href{http://sourceforge.net/projects/TDM-GCC}{\texttt{ http\+://sourceforge.\+net/projects/\+TDM-\/\+GCC}} k) PELLES C 64 bits \+: version 9.\+2.\+0 downloadable on \href{http://www.smorgasbordet.com/pellesc/}{\texttt{ http\+://www.\+smorgasbordet.\+com/pellesc/}} l) MSYS2 environnement MINGW64 \+: version de 2020 (msys2-\/x86\+\_\+64-\/20201109.\+exe) on \href{https://repo.msys2.org/distrib/x86_64/msys2-x86_64-20201109.exe}{\texttt{ https\+://repo.\+msys2.\+org/distrib/x86\+\_\+64/msys2-\/x86\+\_\+64-\/20201109.\+exe}} m) CLANG, adossé aux environnements MINGW64 et MINGW32, version 12.\+0.\+1 (version gcc 11.\+0.\+1) downloadable on \href{https://winlibs.com/}{\texttt{ https\+://winlibs.\+com/}} n) CLANG, adossé aux environnements Visual Studio 2019 (+ kits Microsoft), version 12.\+0.\+1, downloadable on \href{https://releases.llvm.org/download.html}{\texttt{ https\+://releases.\+llvm.\+org/download.\+html}}
+
+Add resource file and resource header for restitute version + icon Open\+GL.\+ico for fun because versionning is important, same for freeware \+:-\/) !
+
+Date \+: 2020/10/28
+
+\begin{DoxyAuthor}{Author}
+Jeff Molofee ( Ne\+He ) originely, Modified for LCCWin32 compiler by Robert Wishlaw 2002/11/23 
+
+After adapted by Thierry Dechaize to verify paradigm \+: one source for multiple C FREE Compilers 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+2.\+0.\+1.\+0 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+28 Octobre 2020
+\end{DoxyDate}
+Ce programme ne gére que deux événements \+: le clic sur le bouton \char`\"{}\+Fermé\char`\"{} de la fenêtre ou la sortie par la touche ESC. 

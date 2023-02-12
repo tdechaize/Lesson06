@@ -1,0 +1,4 @@
+<map id="WndProc" name="WndProc">
+<area shape="rect" id="node1" title="Fonction CALLBACK de traitement des messages Windows." alt="" coords="5,5,80,31"/>
+<area shape="rect" id="node2" href="$_lesson06_8c.html#a87bb84d489df61ed7b0c002584fd984f" title="Fonction ReSizeGLScene : redimensionnement de la fenêtre Windows gérant OpenGL." alt="" coords="128,5,247,31"/>
+</map>

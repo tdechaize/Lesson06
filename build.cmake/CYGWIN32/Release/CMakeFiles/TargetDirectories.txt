@@ -1,0 +1,3 @@
+C:/src/OpenGL/NeHe_Lesson06-master/build.cmake/CYGWIN32/Release/CMakeFiles/Lesson06.dir
+C:/src/OpenGL/NeHe_Lesson06-master/build.cmake/CYGWIN32/Release/CMakeFiles/edit_cache.dir
+C:/src/OpenGL/NeHe_Lesson06-master/build.cmake/CYGWIN32/Release/CMakeFiles/rebuild_cache.dir

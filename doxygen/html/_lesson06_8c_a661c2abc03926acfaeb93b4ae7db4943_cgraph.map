@@ -1,0 +1,11 @@
+<map id="WinMain" name="WinMain">
+<area shape="rect" id="node1" title="Creation of our application on Windows System (not console application) *." alt="" coords="5,56,77,81"/>
+<area shape="rect" id="node2" href="$_lesson06_8c.html#ae5f043c9df9b9e5e0e26d567feeeb1bc" title="Creation of our OpenGL Window." alt="" coords="125,56,247,81"/>
+<area shape="rect" id="node6" href="$_lesson06_8c.html#af33a2273205c1491be5916d3091658e0" title="Fonction KillGLWindow : Destruction de toutes les ressources du programme." alt="" coords="295,5,396,31"/>
+<area shape="rect" id="node9" href="$_lesson06_8c.html#a52061247bdaeb770e3a1d59eefaad972" title="Fonction DrawGLScene : Dessin sous OpenGL dans la fenêtre Windows." alt="" coords="133,105,239,131"/>
+<area shape="rect" id="node3" href="$_lesson06_8c.html#aa4c387d3f1ebce6d57684b6a10c9b0ae" title="Fonction InitGL : Fin de l&#39;initialisation de la fenêtre Windows gérant OpenGL." alt="" coords="317,55,374,80"/>
+<area shape="rect" id="node7" href="$_lesson06_8c.html#a87bb84d489df61ed7b0c002584fd984f" title="Fonction ReSizeGLScene : redimensionnement de la fenêtre Windows gérant OpenGL." alt="" coords="444,131,563,156"/>
+<area shape="rect" id="node8" href="$_lesson06_8c.html#ae749e989b362e19783c7af4a2bf46c95" title="Fonction CALLBACK de traitement des messages Windows." alt="" coords="308,156,383,181"/>
+<area shape="rect" id="node4" href="$_lesson06_8c.html#a8dd15539ba90ae3670aa0a9f889d2236" title=" " alt="" coords="445,55,561,80"/>
+<area shape="rect" id="node5" href="$_lesson06_8c.html#ab297f3a05d02d1e923b2feb09384c321" title="Fonction NeHeLoadBitmap : charge un fichier BMP en mémoire pour generer une texture." alt="" coords="611,55,733,80"/>
+</map>

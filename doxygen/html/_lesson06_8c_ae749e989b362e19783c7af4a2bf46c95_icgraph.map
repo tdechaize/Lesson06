@@ -1,0 +1,5 @@
+<map id="WndProc" name="WndProc">
+<area shape="rect" id="node1" title="Fonction CALLBACK de traitement des messages Windows." alt="" coords="295,5,369,31"/>
+<area shape="rect" id="node2" href="$_lesson06_8c.html#ae5f043c9df9b9e5e0e26d567feeeb1bc" title="Creation of our OpenGL Window." alt="" coords="125,5,247,31"/>
+<area shape="rect" id="node3" href="$_lesson06_8c.html#a661c2abc03926acfaeb93b4ae7db4943" title="Creation of our application on Windows System (not console application) *." alt="" coords="5,5,77,31"/>
+</map>

@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\Lesson06.dir/objects.a
+C:\mingw64\bin\llvm-ar.exe qc CMakeFiles\Lesson06.dir/objects.a @CMakeFiles\Lesson06.dir\objects1
+C:\mingw64\bin\clang.exe  -m64 -target x86_64-pc-windows-gnu  -O3 -DNDEBUG -Wl,--whole-archive CMakeFiles\Lesson06.dir/objects.a -Wl,--no-whole-archive -o C:\src\OpenGL\NeHe_Lesson06-master\binCLANGW64\Release\Lesson06.exe -Wl,--out-implib,C:\src\OpenGL\NeHe_Lesson06-master\binCLANGW64\Release\libLesson06.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Lesson06.dir\linkLibs.rsp

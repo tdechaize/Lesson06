@@ -31,10 +31,10 @@
 	<stdbool.h>
 	<wtypes.h>
 
-1663253175 source:c:\src\opengl\nehe_lesson06-master\src\lesson06.rc
+1663249575 source:c:\src\opengl\nehe_lesson06-master\src\lesson06.rc
 	<windows.h>
 	<winver.h>
 	"resource.h"
 
-1645109627 c:\src\opengl\nehe_lesson06-master\src\resource.h
+1645106027 c:\src\opengl\nehe_lesson06-master\src\resource.h
 

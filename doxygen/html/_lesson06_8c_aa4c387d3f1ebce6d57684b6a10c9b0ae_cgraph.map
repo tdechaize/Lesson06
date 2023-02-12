@@ -1,0 +1,5 @@
+<map id="InitGL" name="InitGL">
+<area shape="rect" id="node1" title="Fonction InitGL : Fin de l&#39;initialisation de la fenêtre Windows gérant OpenGL." alt="" coords="5,5,63,31"/>
+<area shape="rect" id="node2" href="$_lesson06_8c.html#a8dd15539ba90ae3670aa0a9f889d2236" title=" " alt="" coords="111,5,227,31"/>
+<area shape="rect" id="node3" href="$_lesson06_8c.html#ab297f3a05d02d1e923b2feb09384c321" title="Fonction NeHeLoadBitmap : charge un fichier BMP en mémoire pour generer une texture." alt="" coords="275,5,397,31"/>
+</map>
